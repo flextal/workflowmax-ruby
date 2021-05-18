@@ -147,7 +147,7 @@ module WorkflowMaxRuby
       @asset_url = 'https://api.xero.com/assets.xro/1.0'
       @project_url = 'https://api.xero.com/projects.xro/2.0/'
       @files_url = 'https://api.xero.com/files.xro/1.0/'
-      @client_url = 'https://api.xero.com/workflowmax/3.0/client.api/'
+      @client_url = 'https://api.workflowmax.com/client.api/'
       @invoice_url = 'https://api.xero.com/workflowmax/3.0/invoice.api/'
       @job_url = 'https://api.xero.com/workflowmax/3.0/job.api/'
       @task_url = 'https://api.xero.com/workflowmax/3.0/task.api/'
