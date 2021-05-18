@@ -11,5 +11,5 @@ The version of the XeroOpenAPI document: 2.12.0
 =end
 
 module WorkflowMaxRuby
-  VERSION = '1.0.2'
+  VERSION = '1.0.3'
 end
