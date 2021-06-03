@@ -402,6 +402,10 @@ module WorkflowMaxRuby
       (mime == '*/*') || !(mime =~ /Application\/.*json(?!p)(;.*)?/i).nil?
     end
 
+    def xml_mime?(mime)
+      (mime == '*/*') || !(mime =~ /text\/.*xml(?!p)(;.*)?/i).nil?
+    end
+
     # Deserialize the response to the given return type.
     #
     # @param [Response] response HTTP response
@@ -419,9 +423,9 @@ module WorkflowMaxRuby
       return body if return_type == 'String'
 
       # ensuring a default content type
-      content_type = response.headers['Content-Type'] || 'application/json'
+      content_type = response.headers['Content-Type'] || 'text/xml'
 
-      fail "Content-Type is not supported: #{content_type}" unless json_mime?(content_type)
+      fail "Content-Type is not supported: #{content_type}" unless json_mime?(content_type) || xml_mime?(content_type)
 
       begin
         data = JSON.parse("[#{body}]", :symbolize_names => true)[0]
