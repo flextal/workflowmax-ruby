@@ -295,7 +295,7 @@ module WorkflowMaxRuby
         prepare_file(response) if opts[:return_type] == 'File'
         data = deserialize(response, opts[:return_type], api_client)
       elsif !response.body.empty?
-        data = JSON.parse(response.body)
+        data = JSON.parse(Hash.from_xml(response.body))
       else
         data = nil
       end
@@ -428,7 +428,7 @@ module WorkflowMaxRuby
       fail "Content-Type is not supported: #{content_type}" unless json_mime?(content_type) || xml_mime?(content_type)
 
       begin
-        data = JSON.parse("[#{body}]", :symbolize_names => true)[0]
+        data = JSON.parse("[#{Hash.from_xml(body)}]", :symbolize_names => true)[0]
       rescue JSON::ParserError => e
         if %w(String Date DateTime).include?(return_type)
           data = body
