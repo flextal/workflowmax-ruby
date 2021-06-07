@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'json'
+require 'active_support/core_ext'
 
 describe WorkflowMaxRuby::ApiClient do
   context 'initialization' do
@@ -43,11 +45,11 @@ describe WorkflowMaxRuby::ApiClient do
             client_id: 'abc',
             client_secret: '123',
             redirect_uri: 'https://mydomain.com/callback',
-            scopes: 'openid profile email accounting.transactions accounting.settings',
+            scopes: 'workflowmax openid profile email offline_access',
             state: 'i-am-customer-state'
           }
           api_client = WorkflowMaxRuby::ApiClient.new(credentials: creds)
-          expect(api_client.authorization_url).to eq('https://login.xero.com/identity/connect/authorize?response_type=code&client_id=abc&redirect_uri=https://mydomain.com/callback&scope=openid+profile+email+accounting.transactions+accounting.settings&state=i-am-customer-state')
+          expect(api_client.authorization_url).to eq('https://login.xero.com/identity/connect/authorize?response_type=code&client_id=abc&redirect_uri=https://mydomain.com/callback&scope=workflowmax+openid+profile+email+offline_access&state=i-am-customer-state')
         end
 
         it "Does not append state if it is not provided" do
@@ -55,10 +57,10 @@ describe WorkflowMaxRuby::ApiClient do
             client_id: 'abc',
             client_secret: '123',
             redirect_uri: 'https://mydomain.com/callback',
-            scopes: 'openid profile email accounting.transactions accounting.settings'
+            scopes: 'workflowmax openid profile email offline_access'
           }
           api_client = WorkflowMaxRuby::ApiClient.new(credentials: creds)
-          expect(api_client.authorization_url).to eq('https://login.xero.com/identity/connect/authorize?response_type=code&client_id=abc&redirect_uri=https://mydomain.com/callback&scope=openid+profile+email+accounting.transactions+accounting.settings')
+          expect(api_client.authorization_url).to eq('https://login.xero.com/identity/connect/authorize?response_type=code&client_id=abc&redirect_uri=https://mydomain.com/callback&scope=workflowmax+openid+profile+email+offline_access')
         end
 
         it "Validates state on callback matches @config.state" do
@@ -66,7 +68,7 @@ describe WorkflowMaxRuby::ApiClient do
             client_id: 'abc',
             client_secret: '123',
             redirect_uri: 'https://mydomain.com/callback',
-            scopes: 'openid profile email accounting.transactions accounting.settings',
+            scopes: 'workflowmax openid profile email offline_access',
             state: "custom-state"
           }
           api_client = WorkflowMaxRuby::ApiClient.new(credentials: creds)
@@ -171,61 +173,86 @@ describe WorkflowMaxRuby::ApiClient do
     end
   end
 
+  # describe 'api_client actual connection' do
+  #   it 'creates an actual connection' do
+  #     creds = {
+  #       client_id: 'EF35534570E940AEB5D9AB17D23E653E',
+  #       client_secret: 'ZJOwTbIHPAa8A7iL-U8KGxZlf1FJeN2Q_tk8BTWKTTLA39z3',
+  #       redirect_uri: 'http://localhost:3000/callback',
+  #       scopes: 'workflowmax openid profile email offline_access'
+  #     }
+  #     api_client = WorkflowMaxRuby::ApiClient.new(credentials: creds)
+  #     puts api_client.inspect
+  #     expect(api_client.access_token).to_not eq(nil)
+  #
+  #   end
+  # end
+
+
   describe '#deserialize' do
     it "handles Array<Integer>" do
       api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'application/json' }
+      headers = { 'Content-Type' => 'text/xml' }
       response = double('response', headers: headers, body: '[12, 34]')
-      data = api_client.deserialize(response, 'Array<Integer>', 'AccountingApi')
+      data = api_client.deserialize(response, 'Array<Integer>', 'JobApi')
       expect(data).to be_instance_of(Array)
       expect(data).to eq([12, 34])
     end
 
     it 'handles Array<Array<Integer>>' do
       api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'application/json' }
+      headers = { 'Content-Type' => 'text/xml' }
       response = double('response', headers: headers, body: '[[12, 34], [56]]')
-      data = api_client.deserialize(response, 'Array<Array<Integer>>', 'AccountingApi')
+      data = api_client.deserialize(response, 'Array<Array<Integer>>', 'JobApi')
       expect(data).to be_instance_of(Array)
       expect(data).to eq([[12, 34], [56]])
     end
 
     it 'handles Hash<String, String>' do
       api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'application/json' }
+      headers = { 'Content-Type' => 'text/xml' }
       response = double('response', headers: headers, body: '{"message": "Hello"}')
-      data = api_client.deserialize(response, 'Hash<String, String>', 'AccountingApi')
+      data = api_client.deserialize(response, 'Hash<String, String>', 'JobApi')
       expect(data).to be_instance_of(Hash)
       expect(data).to eq(:message => 'Hello')
     end
   end
 
   describe "#object_to_hash modifies a hash from snake_case to PascalCase" do
-    contact_after = {:Contacts=>[{:Name=>"Bruce Banner", :EmailAddress=>"hulk@avengers.com", :Phones=>[{:PhoneType=>"MOBILE", :PhoneNumber=>"555-1212", :PhoneAreaCode=>"415"}], :PaymentTerms=>{:Bills=>{:Day=>15, :Type=>"OFCURRENTMONTH"}, :Sales=>{:Day=>10, :Type=>"DAYSAFTERBILLMONTH"}}}]}
+    contact_after = {"Contacts"=>{"Contact"=>{"Name"=>"\"Bruce Banner\"", "EmailAddress"=>"\"hulk@avengers.com\"", "Phones"=>{"Phone"=>{"PhoneType"=>"\"MOBILE\"", "PhoneNumber"=>"\"555-1212\"", "PhoneAreaCode"=>"\"415\""}}, "PaymentTerms"=>{"PaymentTerm"=>{"Bills"=>{"Bill"=>{"Day"=>"15", "Type"=>"\"OFCURRENTMONTH\""}}, "Sales"=>{"Sale"=>{"Day"=>"10", "Type"=>"\"DAYSAFTERBILLMONTH\""}}}}}}}
 
     it 'Serializes snake_case object correctly' do
-      contact_before = {:contacts=>[{:name=>"Bruce Banner", :email_address=>"hulk@avengers.com", :phones=>[{:phone_type=>"MOBILE", :phone_number=>"555-1212", :phone_area_code=>"415"}], :payment_terms=>{:bills=>{:day=>15, :type=>"OFCURRENTMONTH"}, :sales=>{:day=>10, :type=>"DAYSAFTERBILLMONTH"}}}]}
+      contact_before = Hash.from_xml('<contacts><contact><name>"Bruce Banner"</name><email_address>"hulk@avengers.com"</email_address><phones><phone><phone_type>"MOBILE"</phone_type><phone_number>"555-1212"</phone_number><phone_area_code>"415"</phone_area_code></phone></phones><payment_terms><payment_term><bills><bill><day>15</day><type>"OFCURRENTMONTH"</type></bill></bills><sales><sale><day>10</day><type>"DAYSAFTERBILLMONTH"</type></sale></sales></payment_term></payment_terms></contact></contacts>')
+      # contact_before = {:contacts=>[{:name=>"Bruce Banner", :email_address=>"hulk@avengers.com", :phones=>[{:phone_type=>"MOBILE", :phone_number=>"555-1212", :phone_area_code=>"415"}], :payment_terms=>{:bills=>{:day=>15, :type=>"OFCURRENTMONTH"}, :sales=>{:day=>10, :type=>"DAYSAFTERBILLMONTH"}}}]}
       api_client = WorkflowMaxRuby::ApiClient.new
       expect(api_client.object_to_hash(contact_before)).to eq(contact_after)
     end
 
     it 'Serializes camelCase object correctly' do
-      json_before = {
-        type: "ACCREC",
-        invoiceNumber: "INV-01",
-        dueDate: "2020-01-01",
-        lineItems: [
-          { quantity: 1.0, unitAmount: 20 }
-        ]
-      }
+      xml_before = '<Root><type>ACCREC</type><invoiceNumber>INV-01</invoiceNumber><dueDate>2020-01-01</dueDate><lineItems><lineItem><quantity>1.0</quantity><unitAmount>20</unitAmount></lineItem></lineItems></Root>'
+      json_before = Hash.from_xml(xml_before).deep_symbolize_keys!
+      # json_before = {
+      #   type: "ACCREC",
+      #   invoiceNumber: "INV-01",
+      #   dueDate: "2020-01-01",
+      #   lineItems: [
+      #     { quantity: 1.0, unitAmount: 20 }
+      #   ]
+      # }
       json_after = {
-        Type: "ACCREC",
-        InvoiceNumber: "INV-01",
-        DueDate: "2020-01-01",
-        LineItems: [
-          { Quantity: 1.0, UnitAmount: 20 }
-        ]
+        Root: {
+          Type: "ACCREC",
+            InvoiceNumber: "INV-01",
+            DueDate: "2020-01-01",
+            LineItems: {
+              LineItem: {
+                Quantity: "1.0",
+                UnitAmount: "20"
+              }
+            }
+        }
       }
+
       api_client = WorkflowMaxRuby::ApiClient.new
       expect(api_client.object_to_hash(json_before)).to eq(json_after)
     end
@@ -346,6 +373,23 @@ describe WorkflowMaxRuby::ApiClient do
     end
   end
 
+  describe '#xml_mime?' do
+    let(:api_client) { WorkflowMaxRuby::ApiClient.new }
+
+    it 'works' do
+      expect(api_client.xml_mime?(nil)).to eq false
+      expect(api_client.xml_mime?('')).to eq false
+
+      expect(api_client.xml_mime?('application/json')).to eq false
+      expect(api_client.xml_mime?('application/json; charset=UTF8')).to eq false
+      expect(api_client.xml_mime?('APPLICATION/JSON')).to eq false
+      expect(api_client.xml_mime?('application/jsonp')).to eq false
+
+      expect(api_client.xml_mime?('application/xml')).to eq true
+      expect(api_client.xml_mime?('text/xml')).to eq true
+    end
+  end
+
   describe '#select_header_accept' do
     let(:api_client) { WorkflowMaxRuby::ApiClient.new }
 
@@ -354,11 +398,11 @@ describe WorkflowMaxRuby::ApiClient do
       expect(api_client.select_header_accept([])).to be_nil
 
       expect(api_client.select_header_accept(['application/json'])).to eq('application/json')
-      expect(api_client.select_header_accept(['application/xml', 'application/json; charset=UTF8'])).to eq('application/json; charset=UTF8')
-      expect(api_client.select_header_accept(['APPLICATION/JSON', 'text/html'])).to eq('APPLICATION/JSON')
+      expect(api_client.select_header_accept(['application/xml', 'application/json; charset=UTF8'])).to eq('application/xml')
+      expect(api_client.select_header_accept(['APPLICATION/JSON', 'text/html'])).to eq('APPLICATION/JSON,text/html')
 
       expect(api_client.select_header_accept(['application/xml'])).to eq('application/xml')
-      expect(api_client.select_header_accept(['text/html', 'application/xml'])).to eq('text/html,application/xml')
+      expect(api_client.select_header_accept(['text/html', 'application/xml'])).to eq('application/xml')
     end
   end
 
@@ -366,14 +410,14 @@ describe WorkflowMaxRuby::ApiClient do
     let(:api_client) { WorkflowMaxRuby::ApiClient.new }
 
     it 'works' do
-      expect(api_client.select_header_content_type(nil)).to eq('application/json')
-      expect(api_client.select_header_content_type([])).to eq('application/json')
+      expect(api_client.select_header_content_type(nil)).to eq('application/xml')
+      expect(api_client.select_header_content_type([])).to eq('application/xml')
 
       expect(api_client.select_header_content_type(['application/json'])).to eq('application/json')
-      expect(api_client.select_header_content_type(['application/xml', 'application/json; charset=UTF8'])).to eq('application/json; charset=UTF8')
+      expect(api_client.select_header_content_type(['application/xml', 'application/json; charset=UTF8'])).to eq('application/xml')
       expect(api_client.select_header_content_type(['APPLICATION/JSON', 'text/html'])).to eq('APPLICATION/JSON')
       expect(api_client.select_header_content_type(['application/xml'])).to eq('application/xml')
-      expect(api_client.select_header_content_type(['text/plain', 'application/xml'])).to eq('text/plain')
+      expect(api_client.select_header_content_type(['text/plain', 'application/xml'])).to eq('application/xml')
     end
   end
 

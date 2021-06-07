@@ -44,7 +44,7 @@ module WorkflowMaxRuby
 
       @user_agent = "workflowmax-ruby-#{VERSION}"
       @default_headers = {
-        'Content-Type' => 'application/json',
+        'Content-Type' => 'text/xml',
         'User-Agent' => @user_agent
       }
     end
@@ -403,7 +403,7 @@ module WorkflowMaxRuby
     end
 
     def xml_mime?(mime)
-      (mime == '*/*') || !(mime =~ /text\/.*xml(?!p)(;.*)?/i).nil?
+      (mime == '*/*') || !(mime =~ /text\/.*xml(?!p)(;.*)?/i).nil? || !(mime =~ /Application\/.*xml(?!p)(;.*)?/i).nil?
     end
 
     # Deserialize the response to the given return type.
@@ -575,7 +575,7 @@ module WorkflowMaxRuby
     def select_header_accept(accepts)
       return nil if accepts.nil? || accepts.empty?
       # use JSON when present, otherwise use all of the provided
-      json_accept = accepts.find { |s| json_mime?(s) }
+      json_accept = accepts.find { |s| xml_mime?(s) }
       json_accept || accepts.join(',')
     end
 
@@ -584,9 +584,9 @@ module WorkflowMaxRuby
     # @return [String] the Content-Type header  (e.g. application/json)
     def select_header_content_type(content_types)
       # use application/json by default
-      return 'application/json' if content_types.nil? || content_types.empty?
+      return 'application/xml' if content_types.nil? || content_types.empty?
       # use JSON when present, otherwise use the first one
-      json_content_type = content_types.find { |s| json_mime?(s) }
+      json_content_type = content_types.find { |s| xml_mime?(s) }
       json_content_type || content_types.first
     end
 

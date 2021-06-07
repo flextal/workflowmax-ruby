@@ -40,8 +40,8 @@ module WorkflowMaxRuby
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
-      header_params[:'content-type'] = 'text/xml'
+      header_params['Accept'] = @api_client.select_header_accept(['application/xml'])
+      header_params[:'content-type'] = 'application/xml'
       header_params[:'xero-tenant-id'] = xero_tenant_id
       header_params[:'If-Modified-Since'] = opts[:'if_modified_since'] if !opts[:'if_modified_since'].nil?
 
