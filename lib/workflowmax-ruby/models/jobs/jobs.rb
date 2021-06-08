@@ -112,11 +112,11 @@ module WorkflowMaxRuby::Jobs
         if type =~ /\AArray<(.*)>/i
           # check to ensure the input is an array given that the attribute
           # is documented as an array but the input is not
-          if attributes[self.class.attribute_map[key]].is_a?(Array)
-            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          if attributes[self.class.attribute_map[key.titleize]].is_a?(Array)
+            self.send("#{key.titleize}=", attributes[self.class.attribute_map[key.titleize]].map { |v| _deserialize($1, v) })
           end
-        elsif !attributes[self.class.attribute_map[key]].nil?
-          self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
+        elsif !attributes[self.class.attribute_map[key.titleize]].nil?
+          self.send("#{key.titleize}=", _deserialize(type.titleize, attributes[self.class.attribute_map[key]]))
         end # or else data not found in attributes(hash), not an issue as the data can be optional
       end
 
