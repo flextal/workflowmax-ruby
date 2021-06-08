@@ -202,6 +202,7 @@ require 'workflowmax-ruby/models/jobs/jobs'
 require 'workflowmax-ruby/models/jobs/manager'
 require 'workflowmax-ruby/models/jobs/partner'
 require 'workflowmax-ruby/models/jobs/staff'
+require 'workflowmax-ruby/models/jobs/status'
 require 'workflowmax-ruby/models/tasks/task'
 require 'workflowmax-ruby/models/tasks/tasks'
 
