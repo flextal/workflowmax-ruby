@@ -428,7 +428,7 @@ module WorkflowMaxRuby
       fail "Content-Type is not supported: #{content_type}" unless json_mime?(content_type) || xml_mime?(content_type)
 
       # begin
-        data = JSON.parse("[#{Hash.from_xml(body).to_json}]", :symbolize_names => true)[0]
+        data = JSON.parse(Hash.from_xml(body).to_json, symbolize_names: true)[:Response]
       # rescue JSON::ParserError => e
       #   if %w(String Date DateTime).include?(return_type)
       #     data = body
