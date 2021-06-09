@@ -18,6 +18,7 @@ require 'faraday'
 require 'base64'
 require 'cgi'
 require 'json/jwt'
+require 'nokogiri'
 
 module WorkflowMaxRuby
   class ApiClient
@@ -219,7 +220,7 @@ module WorkflowMaxRuby
       return body
     end
 
-    # Connection heplers
+    # Connection helpers
     def connections
       @config.base_url = 'https://api.xero.com'
       opts = { :header_params => {'Content-Type': 'application/json'}, :auth_names => ['OAuth2'] }
@@ -295,7 +296,8 @@ module WorkflowMaxRuby
         prepare_file(response) if opts[:return_type] == 'File'
         data = deserialize(response, opts[:return_type], api_client)
       elsif !response.body.empty?
-        data = JSON.parse(Hash.from_xml(response.body))
+        # data = JSON.parse(Hash.from_xml(response.body))
+        data = response.body
       else
         data = nil
       end
@@ -402,6 +404,14 @@ module WorkflowMaxRuby
       (mime == '*/*') || !(mime =~ /Application\/.*json(?!p)(;.*)?/i).nil?
     end
 
+    # Check if the given MIME is a XML MIME.
+    # XML MIME examples:
+    #   application/xml
+    #   APPLICATION/XML
+    #   text/xml
+    #   */*
+    # @param [String] mime MIME
+    # @return [Boolean] True if the MIME is application/json
     def xml_mime?(mime)
       (mime == '*/*') || !(mime =~ /text\/.*xml(?!p)(;.*)?/i).nil? || !(mime =~ /Application\/.*xml(?!p)(;.*)?/i).nil?
     end
@@ -429,6 +439,7 @@ module WorkflowMaxRuby
 
       # begin
         data = JSON.parse(Hash.from_xml(body).to_json, symbolize_names: true)[:Response][return_type.to_sym]
+      #   data = Nokogiri::XML(body)
       # rescue JSON::ParserError => e
       #   if %w(String Date DateTime).include?(return_type)
       #     data = body
@@ -492,6 +503,7 @@ module WorkflowMaxRuby
           WorkflowMaxRuby::Tasks.const_get(return_type).build_from_hash(data)
         when 'JobApi'
           WorkflowMaxRuby::Jobs.const_get(return_type).build_from_hash(data)
+          # WorkflowMaxRuby::Jobs.const_get(return_type).build_from_xml(data)
         else
           WorkflowMaxRuby::Accounting.const_get(return_type).build_from_hash(data)
         end
@@ -544,7 +556,7 @@ module WorkflowMaxRuby
       end
     end
 
-    # Update hearder and query params based on authentication settings.
+    # Update header and query params based on authentication settings.
     #
     # @param [Hash] header_params Header parameters
     # @param [Hash] query_params Query parameters
