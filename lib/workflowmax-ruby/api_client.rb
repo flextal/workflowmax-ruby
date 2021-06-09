@@ -438,7 +438,7 @@ module WorkflowMaxRuby
       fail "Content-Type is not supported: #{content_type}" unless json_mime?(content_type) || xml_mime?(content_type)
 
       # begin
-        data = JSON.parse(Hash.from_xml(body).to_json, symbolize_names: true)[:Response][return_type.to_sym]
+        data = JSON.parse(Hash.from_xml(body).to_json, symbolize_names: true)[:Response]
       #   data = Nokogiri::XML(body)
       # rescue JSON::ParserError => e
       #   if %w(String Date DateTime).include?(return_type)
