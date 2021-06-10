@@ -20,5 +20,4 @@ describe 'JobApi' do
     end
   end
 
-
 end

@@ -33,30 +33,32 @@ module WorkflowMaxRuby::Jobs
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'uuid' => :'uuid',
-        :'name' => :'name',
-        :'description' => :'description',
-        :'state' => :'state',
-        :'client_order_number' => :'client_order_number',
-        :'start_date' => :'start_date',
-        :'due_date' => :'due_date',
-        :'completed_date' => :'completed_date',
-        :'client' => :'client',
-        :'contact' => :'contact',
-        :'manager' => :'manager',
-        :'partner' => :'partner',
-        :'assigned' => :'assigned',
-        :'web_url' => :'web_url'
+        :'id' => :'ID',
+        :'uuid' => :'UUID',
+        :'name' => :'Name',
+        :'description' => :'Description',
+        :'state' => :'State',
+        :'client_order_number' => :'ClientOrderNumber',
+        :'start_date' => :'StartDate',
+        :'due_date' => :'DueDate',
+        :'completed_date' => :'CompletedDate',
+        :'client' => :'Client',
+        :'contact' => :'Contact',
+        :'manager' => :'Manager',
+        :'partner' => :'Partner',
+        :'assigned' => :'Assigned',
+        :'web_url' => :'WebUrl'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
+        :'id' => :'String',
         :'uuid' => :'String',
         :'name' => :'String',
         :'description' => :'String',
-        :'state' => :'State',
+        :'state' => :'String',
         :'client_order_number' => :'String',
         :'start_date' => :'DateTime',
         :'due_date' => :'DateTime',
@@ -156,6 +158,8 @@ module WorkflowMaxRuby::Jobs
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -171,6 +175,10 @@ module WorkflowMaxRuby::Jobs
     # @return [Object] Deserialized data
     def _deserialize(type, value)
       case type.to_sym
+      when :DateTime
+        DateTime.parse(parse_date(value))
+      when :Date
+        Date.parse(parse_date(value))
       when :String
         value.to_s
       when :Integer
@@ -232,6 +240,17 @@ module WorkflowMaxRuby::Jobs
     # Returns the object in the form of hash with snake_case
     def to_attributes
       to_hash(downcase: true)
+    end
+
+    def parse_date(datestring)
+      if datestring.include?('Date')
+        date_pattern = /\/Date\((-?\d+)(\+\d+)?\)\//
+        original, date, timezone = *date_pattern.match(datestring)
+        date = (date.to_i / 1000)
+        Time.at(date).utc.strftime('%Y-%m-%dT%H:%M:%S%z').to_s
+      else # handle date 'types' for small subset of payroll API's
+        Time.parse(datestring).strftime('%Y-%m-%dT%H:%M:%S').to_s
+      end
     end
 
     # Outputs non-array value in the form of hash

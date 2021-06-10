@@ -1,0 +1,65 @@
+<Response api-method="Current">
+  <Status>OK</Status>
+  <Jobs>
+    <Job>
+      <ID>J002306</ID>
+      <UUID>dedfd1c3-4232-4b1f-b27e-3b17240ba18b</UUID>
+      <Name>Expert Content/Copywriter</Name>
+      <Description>We are looking for a content copywriter who can write social media and blog posts for both internal and external use. 
+
+The average client needs 15-20 social media posts a month, and it will scale up to 40, 60, 80 as clients are added. The target market is law firms and schools - daycares, Montessori, etc.
+
+Will start at about 10 hours a week and scale up from there depending on how long it takes to get work completed.</Description>
+      <Client>
+        <UUID>3cfaa4f1-756a-4117-9bf0-08d7b2bf530a</UUID>
+        <Name>1 GS Agency</Name>
+      </Client>
+      <ClientOrderNumber/>
+      <Budget>2000.00</Budget>
+      <State>Quoting</State>
+      <Type>Flexible Talent</Type>
+      <StartDate>2021-02-19T00:00:00</StartDate>
+      <DueDate>2021-02-19T00:00:00</DueDate>
+      <Assigned/>
+      <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=51202932</WebUrl>
+    </Job>
+    <Job>
+      <ID>J002381</ID>
+      <UUID>4ceaacd8-d642-4842-a1fb-ca3ec7f72db9</UUID>
+      <Name>Dato CMS Support</Name>
+      <Description>At a high level, we have 2 sites that are currently hosted in DATO, you’ve done some work for us on the boltinc.com side, but our other website which is access.boltinsurance.com needs some support.
+ 
+
+We have a marketing agency who does our web development but they’re not familiar with DATO, so it’s been a struggle trying to get them up to speed quickly. Small issues like the site not deploying or trying to create a simple landing page is what we’re working on right now.</Description>
+      <Client>
+        <UUID>d12d5396-f261-4211-ad65-a6f2efde39e9</UUID>
+        <Name>3 Media Web</Name>
+      </Client>
+      <ClientOrderNumber/>
+      <Budget>1240.00</Budget>
+      <State>Quote - Holding</State>
+      <Type>Flexible Talent</Type>
+      <StartDate>2021-04-09T00:00:00</StartDate>
+      <DueDate>2021-12-31T00:00:00</DueDate>
+      <Contact>
+        <UUID>b52bc931-10c6-466a-92b6-10b624b3d802</UUID>
+        <Name>Marc Avila</Name>
+      </Contact>
+      <Manager>
+        <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+        <Name>Blake Lopez</Name>
+      </Manager>
+      <Partner>
+        <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+        <Name>Blake Lopez</Name>
+      </Partner>
+      <Assigned>
+        <Staff>
+          <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+          <Name>Blake Lopez</Name>
+        </Staff>
+      </Assigned>
+      <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=51716995</WebUrl>
+    </Job>
+  </Jobs>
+</Response>
