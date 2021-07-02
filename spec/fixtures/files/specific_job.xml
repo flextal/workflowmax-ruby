@@ -1,0 +1,32 @@
+<Response api-method="Get">
+  <Status>OK</Status>
+  <Job>
+    <ID>J001553</ID>
+    <UUID>54a6a7bc-597f-4885-84d0-c12744aa24c5</UUID>
+    <Name>Pinterest Manager</Name>
+    <Description>Pinterest Manager for up to 15 hours per month for Brand Pollinators
+
+      Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+      This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+    <Client>
+      <UUID>d9de2716-215c-47fe-ac5b-03d21bb61b52</UUID>
+      <Name>Brand Pollinators</Name>
+    </Client>
+    <ClientOrderNumber>AWR-1553</ClientOrderNumber>
+    <Budget>1200.00</Budget>
+    <State>Awaiting Accept</State>
+    <Type>Flexible Talent</Type>
+    <StartDate>2020-12-28T00:00:00</StartDate>
+    <DueDate>2020-12-28T00:00:00</DueDate>
+    <Contact>
+      <UUID>71b3188d-e717-4154-9224-6d1955137082</UUID>
+      <Name>Kate Fosson</Name>
+    </Contact>
+    <Assigned/>
+    <Tasks/>
+    <Milestones/>
+    <Notes/>
+    <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=50762981</WebUrl>
+  </Job>
+</Response>

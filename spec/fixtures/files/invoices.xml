@@ -1,0 +1,1932 @@
+<Response api-method="Current">
+  <Status>OK</Status>
+  <Invoices>
+    <Invoice>
+      <ID>CN-3082</ID>
+      <UUID>361cede4-808d-4da4-b2f6-779eb8efb568</UUID>
+      <Type>Miscellaneous</Type>
+      <JobText/>
+      <Description>Credit Note</Description>
+      <Date>2021-01-27T00:00:00</Date>
+      <DueDate>2021-02-06T00:00:00</DueDate>
+      <Amount>-2500.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-2500.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-2500.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>df3b2761-69f1-4075-a81b-ef2df42ff5b8</UUID>
+        <Name>Rock Creek Ventures, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>ed3c8d86-a801-47b1-8609-a90940edb705</UUID>
+        <Name>Jeremy Zobrist</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3091</ID>
+      <UUID>d007472b-920f-40cf-a076-3b638e56e370</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001591</JobText>
+      <Description/>
+      <Date>2021-02-01T00:00:00</Date>
+      <DueDate>2021-02-11T00:00:00</DueDate>
+      <Amount>-190.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-190.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-190.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3097</ID>
+      <UUID>850f70fe-bffa-42b5-91f2-db7e65caa1a1</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001563</JobText>
+      <Description/>
+      <Date>2021-02-01T00:00:00</Date>
+      <DueDate>2021-02-11T00:00:00</DueDate>
+      <Amount>-423.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-423.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-423.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>7dcf79d4-b7d4-45ae-a510-8784147c2791</UUID>
+        <Name>JSB Media, llc</Name>
+      </Client>
+      <Contact>
+        <UUID>c8050157-cf6d-4a5b-a9bd-2423c6a104b0</UUID>
+        <Name>Jordan Bratter</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3100</ID>
+      <UUID>df348d8e-33d0-43c9-afa2-66c5e1f7372c</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001582</JobText>
+      <Description/>
+      <Date>2021-02-03T00:00:00</Date>
+      <DueDate>2021-02-13T00:00:00</DueDate>
+      <Amount>-82.77</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-82.77</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-82.77</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+      <Contact>
+        <UUID>dc0bbc04-c344-48c8-b0eb-ce54a7b21b41</UUID>
+        <Name>Jonathan Staley</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3111</ID>
+      <UUID>753ff623-32b9-4116-aac0-afec548bd12d</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002216</JobText>
+      <Description/>
+      <Date>2021-02-16T00:00:00</Date>
+      <DueDate>2021-02-26T00:00:00</DueDate>
+      <Amount>-437.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-437.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-437.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>40ae54a0-74b8-4a43-8ea1-21903d701c5b</UUID>
+        <Name>JPG Resources (The Garden)</Name>
+      </Client>
+      <Contact>
+        <UUID>e712d57a-f1ad-489f-aced-a8af2b043a91</UUID>
+        <Name>Dean Sinclair (JPG)</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3112</ID>
+      <UUID>e637ea97-f4ad-46af-ba12-c4e870e818ef</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001582</JobText>
+      <Description/>
+      <Date>2021-02-15T00:00:00</Date>
+      <DueDate>2021-02-25T00:00:00</DueDate>
+      <Amount>-639.64</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-639.64</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-639.64</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+      <Contact>
+        <UUID>dc0bbc04-c344-48c8-b0eb-ce54a7b21b41</UUID>
+        <Name>Jonathan Staley</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3113</ID>
+      <UUID>ea38f51c-a0d7-4d9c-960e-6340c8ba263b</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001563</JobText>
+      <Description/>
+      <Date>2021-02-16T00:00:00</Date>
+      <DueDate>2021-02-26T00:00:00</DueDate>
+      <Amount>-77.25</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-77.25</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-77.25</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>7dcf79d4-b7d4-45ae-a510-8784147c2791</UUID>
+        <Name>JSB Media, llc</Name>
+      </Client>
+      <Contact>
+        <UUID>c8050157-cf6d-4a5b-a9bd-2423c6a104b0</UUID>
+        <Name>Jordan Bratter</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3134</ID>
+      <UUID>b9d586c7-24ee-44f2-834e-178588b034a5</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002273</JobText>
+      <Description/>
+      <Date>2021-03-01T00:00:00</Date>
+      <DueDate>2021-03-11T00:00:00</DueDate>
+      <Amount>-340.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-340.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-340.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>d22eb0a3-ff97-4deb-9edc-52a0ef73f57e</UUID>
+        <Name>Zipperstop</Name>
+      </Client>
+      <Contact>
+        <UUID>78c408d2-cddc-4e31-9055-395e469a07dd</UUID>
+        <Name>Keith Kreizel</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3135</ID>
+      <UUID>e6750a6c-f0d8-43ec-b796-090a7a295432</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-03-01T00:00:00</Date>
+      <DueDate>2021-03-11T00:00:00</DueDate>
+      <Amount>-4000.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-4000.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-4000.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3138</ID>
+      <UUID>a9e335b0-81b4-4fec-9e0e-bdf5ea9b3555</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001591</JobText>
+      <Description/>
+      <Date>2021-02-28T00:00:00</Date>
+      <DueDate>2021-03-10T00:00:00</DueDate>
+      <Amount>-1267.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-1267.50</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-1267.50</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3161</ID>
+      <UUID>209a7b26-7427-4217-9cf0-e4996a156fa6</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002279</JobText>
+      <Description/>
+      <Date>2021-03-15T00:00:00</Date>
+      <DueDate>2021-03-25T00:00:00</DueDate>
+      <Amount>-60.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-60.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-60.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>40ae54a0-74b8-4a43-8ea1-21903d701c5b</UUID>
+        <Name>JPG Resources (The Garden)</Name>
+      </Client>
+      <Contact>
+        <UUID>e712d57a-f1ad-489f-aced-a8af2b043a91</UUID>
+        <Name>Dean Sinclair (JPG)</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3223</ID>
+      <UUID>94a4676b-eb3a-403e-b4f7-fe8f4cf944ca</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002342</JobText>
+      <Description/>
+      <Date>2021-04-12T00:00:00</Date>
+      <DueDate>2021-04-22T00:00:00</DueDate>
+      <Amount>-120.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-120.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-120.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3274</ID>
+      <UUID>64e38cde-32b0-4ed8-8a68-f97026c5cbe1</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002344</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>-10.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-10.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-10.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3275</ID>
+      <UUID>b9c260fb-0e52-44f0-a6c1-113d3d5d5f64</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002343</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>-158.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-158.50</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-158.50</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3284</ID>
+      <UUID>b72fd10a-3529-445d-9e45-2afd4fd2ae8d</UUID>
+      <Type>Final Invoice</Type>
+      <JobText>J002338</JobText>
+      <Description/>
+      <Date>2021-05-17T00:00:00</Date>
+      <DueDate>2021-05-27T00:00:00</DueDate>
+      <Amount>-720.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-720.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-720.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>b9c379b5-1fa4-4cfb-9596-2de4217bb4cc</UUID>
+        <Name>Hello Caveat</Name>
+      </Client>
+      <Contact>
+        <UUID>2b85749a-545a-4480-a57d-c361d020270e</UUID>
+        <Name>Joshua Greenberg</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3293</ID>
+      <UUID>e0268fcf-133e-4dd5-8d94-c3171eff0a8c</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002403</JobText>
+      <Description/>
+      <Date>2021-05-23T00:00:00</Date>
+      <DueDate>2021-06-02T00:00:00</DueDate>
+      <Amount>-180.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-180.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-180.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>d12d5396-f261-4211-ad65-a6f2efde39e9</UUID>
+        <Name>3 Media Web</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3307</ID>
+      <UUID>797b22a7-eb7f-45a5-9cb9-c12328585ed2</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002417</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>-394.51</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-394.51</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-394.51</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>50716172-3e2c-41ad-8591-05e4ab42fb4e</UUID>
+        <Name>Elavi</Name>
+      </Client>
+      <Contact>
+        <UUID>7af7d783-849b-418c-aa52-112c70e64d72</UUID>
+        <Name>Michelle Razavi</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3308</ID>
+      <UUID>31bf4d26-6220-4254-8f3f-074c4869724c</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002418</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>-220.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-220.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-220.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>50716172-3e2c-41ad-8591-05e4ab42fb4e</UUID>
+        <Name>Elavi</Name>
+      </Client>
+      <Contact>
+        <UUID>7af7d783-849b-418c-aa52-112c70e64d72</UUID>
+        <Name>Michelle Razavi</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3320</ID>
+      <UUID>759db012-3cdc-4abb-b0aa-fae9b80f8650</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002411</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>-190.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-190.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-190.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>c5864053-f235-4640-bd96-807464c09522</UUID>
+        <Name>Senders.co</Name>
+      </Client>
+      <Contact>
+        <UUID>9c8bdfab-d949-4712-82af-c10b0416b883</UUID>
+        <Name>Benny Rubin</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>CN-3334</ID>
+      <UUID>bc59bd36-4226-42be-aa8d-b5bab28a595c</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002416</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>-57.25</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>-57.25</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>-57.25</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>50716172-3e2c-41ad-8591-05e4ab42fb4e</UUID>
+        <Name>Elavi</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3064</ID>
+      <UUID>4f9759fd-ad52-4647-b3f3-8c038b9c8960</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001125</JobText>
+      <Description/>
+      <Date>2020-12-29T00:00:00</Date>
+      <DueDate>2021-01-08T00:00:00</DueDate>
+      <Amount>1549.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1549.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1549.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>0829dbdb-4ea2-4a99-b232-a6efb7b3acb3</UUID>
+        <Name>Yankee Springs Farms</Name>
+      </Client>
+      <Contact>
+        <UUID>49293193-b7be-410a-8647-0bae6764b355</UUID>
+        <Name>Paul Lettinga</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3065</ID>
+      <UUID>079ab985-133b-428a-9f07-1ce6c08f1fbe</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001125</JobText>
+      <Description/>
+      <Date>2020-12-29T00:00:00</Date>
+      <DueDate>2021-01-08T00:00:00</DueDate>
+      <Amount>1549.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1549.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1549.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>0829dbdb-4ea2-4a99-b232-a6efb7b3acb3</UUID>
+        <Name>Yankee Springs Farms</Name>
+      </Client>
+      <Contact>
+        <UUID>49293193-b7be-410a-8647-0bae6764b355</UUID>
+        <Name>Paul Lettinga</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3076</ID>
+      <UUID>3c5b3eab-499d-429c-82e9-acbf0f9c5ded</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001543</JobText>
+      <Description/>
+      <Date>2021-01-19T00:00:00</Date>
+      <DueDate>2021-01-29T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3127</ID>
+      <UUID>22817450-2e31-4c01-b0e8-5297299e2b85</UUID>
+      <Type>Final Invoice</Type>
+      <JobText>J002105</JobText>
+      <Description/>
+      <Date>2021-02-26T00:00:00</Date>
+      <DueDate>2021-03-08T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>48372aff-bda1-44ad-8df4-82301f9e8dc9</UUID>
+        <Name>JPG Resources</Name>
+      </Client>
+      <Contact>
+        <UUID>a2b2548a-d39f-45d9-a0c1-bc498f77bb82</UUID>
+        <Name>Rifle Hughes</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3128</ID>
+      <UUID>b8dae246-5eca-459e-a437-1b9df939a3fa</UUID>
+      <Type>Final Invoice</Type>
+      <JobText>J002107</JobText>
+      <Description/>
+      <Date>2021-03-01T00:00:00</Date>
+      <DueDate>2021-03-11T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>df3b2761-69f1-4075-a81b-ef2df42ff5b8</UUID>
+        <Name>Rock Creek Ventures, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>ed3c8d86-a801-47b1-8609-a90940edb705</UUID>
+        <Name>Jeremy Zobrist</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3157</ID>
+      <UUID>db8e3de5-703e-4829-ae2c-8bba23dc3459</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002273</JobText>
+      <Description/>
+      <Date>2021-03-15T00:00:00</Date>
+      <DueDate>2021-03-25T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>d22eb0a3-ff97-4deb-9edc-52a0ef73f57e</UUID>
+        <Name>Zipperstop</Name>
+      </Client>
+      <Contact>
+        <UUID>78c408d2-cddc-4e31-9055-395e469a07dd</UUID>
+        <Name>Keith Kreizel</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3159</ID>
+      <UUID>26cf8376-8db2-4450-b274-7bb4fe84d089</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001591</JobText>
+      <Description/>
+      <Date>2021-03-15T00:00:00</Date>
+      <DueDate>2021-03-25T00:00:00</DueDate>
+      <Amount>1140.84</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1140.84</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1140.84</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3163</ID>
+      <UUID>86118d1b-1daa-49f1-abd7-1fd1e558c537</UUID>
+      <Type>Final Invoice</Type>
+      <JobText>J002325</JobText>
+      <Description/>
+      <Date>2021-03-16T00:00:00</Date>
+      <DueDate>2021-03-26T00:00:00</DueDate>
+      <Amount>350.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>350.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>350.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>e3fed8c4-2d58-4b48-a899-622bf34534c8</UUID>
+        <Name>Chief Outsiders</Name>
+      </Client>
+      <Contact>
+        <UUID>1af16570-c1dc-45a1-8315-a6cb833e2d3a</UUID>
+        <Name>Bill Taylor</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3184</ID>
+      <UUID>6d1632c3-eb7e-4f9e-a346-0be9eb183401</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001563</JobText>
+      <Description/>
+      <Date>2021-03-29T00:00:00</Date>
+      <DueDate>2021-04-08T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>7dcf79d4-b7d4-45ae-a510-8784147c2791</UUID>
+        <Name>JSB Media, llc</Name>
+      </Client>
+      <Contact>
+        <UUID>c8050157-cf6d-4a5b-a9bd-2423c6a104b0</UUID>
+        <Name>Jordan Bratter</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3191</ID>
+      <UUID>6cf756b5-726e-449d-8195-0d90018139ee</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002101</JobText>
+      <Description/>
+      <Date>2021-03-31T00:00:00</Date>
+      <DueDate>2021-04-10T00:00:00</DueDate>
+      <Amount>444.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>444.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>444.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>e0a55d73-9b1c-4c9c-994c-f84fde439475</UUID>
+        <Name>Cybele's Free to Eat</Name>
+      </Client>
+      <Contact>
+        <UUID>eb652493-011f-4565-9104-f69f23354bf4</UUID>
+        <Name>Cybele Pascal</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3194</ID>
+      <UUID>0de26bac-aa4d-469c-bdf2-efdfaf62b762</UUID>
+      <Type>Final Invoice</Type>
+      <JobText>J001555</JobText>
+      <Description/>
+      <Date>2021-04-01T00:00:00</Date>
+      <DueDate>2021-04-11T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>fc08ca25-92b6-4795-9f7e-e116a1e57cd8</UUID>
+        <Name>O&amp;M Industries</Name>
+      </Client>
+      <Contact>
+        <UUID>79084e3c-a669-4c08-8cb1-75b754b771e2</UUID>
+        <Name>Chris Albright</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3200</ID>
+      <UUID>b4693ab7-340f-4e9d-9e14-e42b8915a5de</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002380</JobText>
+      <Description/>
+      <Date>2021-04-08T00:00:00</Date>
+      <DueDate>2021-04-18T00:00:00</DueDate>
+      <Amount>500.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>500.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>500.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d4c3518-0849-4e16-b91d-c0c6c88a3862</UUID>
+        <Name>Smart Cart</Name>
+      </Client>
+      <Contact>
+        <UUID>2f091ea9-8f01-4eb3-9f03-a8b9c7f9a4e6</UUID>
+        <Name>Rohit Yadav</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3207</ID>
+      <UUID>37b056b3-8b71-41d9-89f6-fc35680361cb</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-04-12T00:00:00</Date>
+      <DueDate>2021-04-22T00:00:00</DueDate>
+      <Amount>4000.08</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4000.08</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>4000.08</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3212</ID>
+      <UUID>8e620d74-8ba9-413c-aa39-38fdbf80181e</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002292</JobText>
+      <Description/>
+      <Date>2021-04-12T00:00:00</Date>
+      <DueDate>2021-04-22T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ecc152f8-d854-4741-97c9-2c8f5a37d995</UUID>
+        <Name>Good Life Naturals</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3217</ID>
+      <UUID>938ff845-b749-438f-88b8-67bd981d6db9</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001563</JobText>
+      <Description/>
+      <Date>2021-04-12T00:00:00</Date>
+      <DueDate>2021-04-22T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>7dcf79d4-b7d4-45ae-a510-8784147c2791</UUID>
+        <Name>JSB Media, llc</Name>
+      </Client>
+      <Contact>
+        <UUID>c8050157-cf6d-4a5b-a9bd-2423c6a104b0</UUID>
+        <Name>Jordan Bratter</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3224</ID>
+      <UUID>7264ce32-a3bd-40bb-9d1b-b68b7e2ba900</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001569</JobText>
+      <Description/>
+      <Date>2021-04-12T00:00:00</Date>
+      <DueDate>2021-04-22T00:00:00</DueDate>
+      <Amount>6180.53</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>6180.53</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>6180.53</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
+        <Name>Irish Studio, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
+        <Name>Liam Lynch</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3226</ID>
+      <UUID>1ad14f69-479f-4a8d-8fd5-4fa894c9aa02</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002265</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>4232.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4232.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>4232.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3227</ID>
+      <UUID>863caa7a-f1a7-4dde-bb51-a886d4755d97</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002266</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>1379.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1379.50</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1379.50</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3229</ID>
+      <UUID>928bfc38-bbfe-4894-88eb-88b934092681</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001582</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+      <Contact>
+        <UUID>dc0bbc04-c344-48c8-b0eb-ce54a7b21b41</UUID>
+        <Name>Jonathan Staley</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3232</ID>
+      <UUID>72336d23-de10-4b80-a648-9047b63aef15</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002291</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>412.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>412.50</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>412.50</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>45c1d082-981f-47b0-96c9-edd7fc3f28ee</UUID>
+        <Name>Schuil Coffee Co.</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3239</ID>
+      <UUID>a458e10b-46a0-4ea4-9cc3-384599d6e609</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001591</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>697.18</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>697.18</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>697.18</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3240</ID>
+      <UUID>f0ca501f-a6f6-44bc-a0eb-1f2c9fbb372a</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>4000.08</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4000.08</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>4000.08</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3245</ID>
+      <UUID>7c28223f-8656-460f-8442-219453ce5782</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002101</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>444.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>444.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>444.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>e0a55d73-9b1c-4c9c-994c-f84fde439475</UUID>
+        <Name>Cybele's Free to Eat</Name>
+      </Client>
+      <Contact>
+        <UUID>eb652493-011f-4565-9104-f69f23354bf4</UUID>
+        <Name>Cybele Pascal</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3246</ID>
+      <UUID>0a5e5771-c63c-423b-8824-8186448391a5</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001569</JobText>
+      <Description/>
+      <Date>2021-04-26T00:00:00</Date>
+      <DueDate>2021-05-06T00:00:00</DueDate>
+      <Amount>16841.17</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>16841.17</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>16841.17</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
+        <Name>Irish Studio, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
+        <Name>Liam Lynch</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3256</ID>
+      <UUID>c73b84e7-187d-4e17-aea9-2002fa55a2f3</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002335</JobText>
+      <Description/>
+      <Date>2021-05-06T00:00:00</Date>
+      <DueDate>2021-05-16T00:00:00</DueDate>
+      <Amount>300.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>300.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>300.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>93293161-2d60-4ad9-a738-a370e1164ed8</UUID>
+        <Name>Kiki's Gluten Free</Name>
+      </Client>
+      <Contact>
+        <UUID>f12d7ca3-b544-442b-90ce-4b95aba2ce9e</UUID>
+        <Name>Kiki Michalakos</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3267</ID>
+      <UUID>4b8dc1b6-bd77-491b-a00a-ff5c1b5a35f0</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001544</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>937.20</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>937.20</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>937.20</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3268</ID>
+      <UUID>442518a2-b205-446f-8cec-31f46f3daea5</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001543</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>112.43</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>112.43</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>112.43</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3269</ID>
+      <UUID>8de48046-4f7b-45b7-9353-89f63d248754</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002269</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>373.10</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>373.10</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>373.10</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3271</ID>
+      <UUID>444c2469-5b35-42c5-aa00-a191f2e4df3f</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002266</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>1441.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1441.50</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1441.50</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3272</ID>
+      <UUID>e8086f8a-cc17-469c-a650-5c0951b88d32</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002265</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>2944.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2944.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>2944.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3280</ID>
+      <UUID>776a846b-80d8-4dc3-983f-5f865413aaa6</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002308</JobText>
+      <Description/>
+      <Date>2021-05-11T00:00:00</Date>
+      <DueDate>2021-05-21T00:00:00</DueDate>
+      <Amount>7410.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>7410.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>7410.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>fe5ed07d-d24c-4c7a-b579-51a2fa7e8e0d</UUID>
+        <Name>skuIQ</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3281</ID>
+      <UUID>11655122-5b59-4520-94b7-061d8a0bc6c6</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001569</JobText>
+      <Description/>
+      <Date>2021-05-10T00:00:00</Date>
+      <DueDate>2021-05-20T00:00:00</DueDate>
+      <Amount>11896.89</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>11896.89</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>11896.89</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
+        <Name>Irish Studio, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
+        <Name>Liam Lynch</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3282</ID>
+      <UUID>c9202200-2133-41b2-b045-4dd3f37559d7</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-05-13T00:00:00</Date>
+      <DueDate>2021-05-23T00:00:00</DueDate>
+      <Amount>4000.08</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4000.08</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>4000.08</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3283</ID>
+      <UUID>87307589-3001-4ac3-953c-8e1013855461</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002335</JobText>
+      <Description/>
+      <Date>2021-05-13T00:00:00</Date>
+      <DueDate>2021-05-23T00:00:00</DueDate>
+      <Amount>150.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>150.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>150.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>93293161-2d60-4ad9-a738-a370e1164ed8</UUID>
+        <Name>Kiki's Gluten Free</Name>
+      </Client>
+      <Contact>
+        <UUID>f12d7ca3-b544-442b-90ce-4b95aba2ce9e</UUID>
+        <Name>Kiki Michalakos</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3285</ID>
+      <UUID>8f142a93-cce6-4b12-b80a-db7c06e63e0a</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002435</JobText>
+      <Description/>
+      <Date>2021-05-20T00:00:00</Date>
+      <DueDate>2021-05-30T00:00:00</DueDate>
+      <Amount>500.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>500.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>500.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>af92b2de-064f-4a51-8b86-f9ec1c61dc58</UUID>
+        <Name>Starlite Inc</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3286</ID>
+      <UUID>090d1438-55c2-4fe6-b8d5-c95e2f1f3da1</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002216</JobText>
+      <Description/>
+      <Date>2021-05-23T00:00:00</Date>
+      <DueDate>2021-06-02T00:00:00</DueDate>
+      <Amount>152.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>152.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>152.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>40ae54a0-74b8-4a43-8ea1-21903d701c5b</UUID>
+        <Name>JPG Resources (The Garden)</Name>
+      </Client>
+      <Contact>
+        <UUID>e712d57a-f1ad-489f-aced-a8af2b043a91</UUID>
+        <Name>Dean Sinclair (JPG)</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3287</ID>
+      <UUID>fd323074-b71e-4d38-b9c9-e356b055975e</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002279</JobText>
+      <Description/>
+      <Date>2021-05-23T00:00:00</Date>
+      <DueDate>2021-06-02T00:00:00</DueDate>
+      <Amount>400.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>400.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>400.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>40ae54a0-74b8-4a43-8ea1-21903d701c5b</UUID>
+        <Name>JPG Resources (The Garden)</Name>
+      </Client>
+      <Contact>
+        <UUID>e712d57a-f1ad-489f-aced-a8af2b043a91</UUID>
+        <Name>Dean Sinclair (JPG)</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3290</ID>
+      <UUID>faa4b96a-b864-4c49-9f7f-72e295c59922</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002101</JobText>
+      <Description/>
+      <Date>2021-05-23T00:00:00</Date>
+      <DueDate>2021-06-02T00:00:00</DueDate>
+      <Amount>444.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>444.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>444.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>e0a55d73-9b1c-4c9c-994c-f84fde439475</UUID>
+        <Name>Cybele's Free to Eat</Name>
+      </Client>
+      <Contact>
+        <UUID>eb652493-011f-4565-9104-f69f23354bf4</UUID>
+        <Name>Cybele Pascal</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3295</ID>
+      <UUID>6b48de2e-502c-4edf-becf-7ce4b5307c30</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-05-24T00:00:00</Date>
+      <DueDate>2021-06-03T00:00:00</DueDate>
+      <Amount>3142.92</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>3142.92</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>3142.92</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3300</ID>
+      <UUID>108d1bde-60ed-4bdf-a328-e7fa8877cc4e</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001543</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>562.13</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>562.13</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>562.13</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3301</ID>
+      <UUID>6c0bb713-11f7-42cf-a6c4-12e10d79ba5a</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001544</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>1124.64</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1124.64</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>1124.64</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3304</ID>
+      <UUID>673e13d1-5f75-4be7-b6e7-68b5b2290dfe</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002292</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>490.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>490.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>490.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ecc152f8-d854-4741-97c9-2c8f5a37d995</UUID>
+        <Name>Good Life Naturals</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3305</ID>
+      <UUID>e408d2e5-a971-4399-acd3-e664654f4452</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001582</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+      <Contact>
+        <UUID>dc0bbc04-c344-48c8-b0eb-ce54a7b21b41</UUID>
+        <Name>Jonathan Staley</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3306</ID>
+      <UUID>71cdc5db-9655-441d-82b5-0bbb2e26b005</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002269</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>303.10</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>303.10</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>303.10</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3310</ID>
+      <UUID>5a5b1f3c-a0b4-4de1-a09d-cff81ecde1e1</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002343</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>0.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>0.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>0.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3313</ID>
+      <UUID>9818157d-2a71-498b-998a-8091073dc4ca</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002100</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>2470.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2470.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>2470.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ecc152f8-d854-4741-97c9-2c8f5a37d995</UUID>
+        <Name>Good Life Naturals</Name>
+      </Client>
+      <Contact>
+        <UUID>88239ec4-2bda-4c7e-aaed-1d23ef1c4163</UUID>
+        <Name>Holly Valencia</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3315</ID>
+      <UUID>3e9b32f1-3420-403a-a9d4-15bb2c5a9390</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001569</JobText>
+      <Description/>
+      <Date>2021-05-24T00:00:00</Date>
+      <DueDate>2021-06-03T00:00:00</DueDate>
+      <Amount>9270.25</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>9270.25</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>9270.25</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
+        <Name>Irish Studio, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
+        <Name>Liam Lynch</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3318</ID>
+      <UUID>359e6c6c-ec1e-4297-b1a4-63636b346e64</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002103</JobText>
+      <Description/>
+      <Date>2021-05-26T00:00:00</Date>
+      <DueDate>2021-06-05T00:00:00</DueDate>
+      <Amount>999.98</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>999.98</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>999.98</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>a8cb77e0-6228-45ee-8003-235ea10f2fbd</UUID>
+        <Name>Zip Xpress</Name>
+      </Client>
+      <Contact>
+        <UUID>c8c0dc1e-0361-4198-9f40-5190b8ef62a3</UUID>
+        <Name>Rhyan Johnson</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3321</ID>
+      <UUID>9a47906d-a01f-43b2-81ce-79b6a9ed8c2a</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002414</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>371.80</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>371.80</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>371.80</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>97940134-9da2-4e2a-8628-5839b431a470</UUID>
+        <Name>Luke Carlsen</Name>
+      </Client>
+      <Contact>
+        <UUID>894401bb-787f-49cf-899c-ee64de33c56a</UUID>
+        <Name>Luke Carlsen</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3322</ID>
+      <UUID>5464b217-1165-49f7-b55a-3bffd57a7e12</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001550</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>3000.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>3000.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>3000.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>29acf5c8-0bf0-481d-8daa-1193f004cd30</UUID>
+        <Name>Meyers Manx</Name>
+      </Client>
+      <Contact>
+        <UUID>58c1f4c9-101c-4ff0-9913-3f72d091a98e</UUID>
+        <Name>Dave Lin</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3323</ID>
+      <UUID>0673aa3d-a375-46d4-a84c-ec32ed6420fc</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001590</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>3142.92</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>3142.92</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>3142.92</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>3d9534cd-abca-4686-810f-69e0ad7ffec9</UUID>
+        <Name>Jonas Paul Eyewear</Name>
+      </Client>
+      <Contact>
+        <UUID>26dc34ca-ff15-4247-8453-7a55030b98ae</UUID>
+        <Name>James Bond</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3324</ID>
+      <UUID>4d9fb32a-9cb3-46fc-ad39-1fb27b3503f3</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002326</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>322.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>322.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>322.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>c6674385-6d10-4c57-b7bd-f7b708cde236</UUID>
+        <Name>dig - digital industry group</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3325</ID>
+      <UUID>a64021bc-53e8-48a5-88e2-79fa1b4f534e</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002313</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>620.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>620.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>620.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5534a81c-4841-4f80-a339-7db2e4c8273a</UUID>
+        <Name>Curry Girls Kitchen</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3327</ID>
+      <UUID>f523584a-585d-4c18-b995-18e000b1d12e</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002308</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>7410.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>7410.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>7410.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>fe5ed07d-d24c-4c7a-b579-51a2fa7e8e0d</UUID>
+        <Name>skuIQ</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3328</ID>
+      <UUID>0582dc48-f54c-4fe5-b547-d94f47fcb651</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001544</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>937.20</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>937.20</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>937.20</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3329</ID>
+      <UUID>5712782e-5153-44b3-aed1-91c5e641e5bf</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002266</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>620.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>620.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>620.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3330</ID>
+      <UUID>24914fd9-76dd-45a5-9cb5-31680eaa2420</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002265</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>3680.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>3680.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>3680.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>1c9f2505-0cd9-41cb-8d4a-448bc998d7bf</UUID>
+        <Name>Landfall Data</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3335</ID>
+      <UUID>7078ac44-7291-4262-bdec-639fb29da500</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002269</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>93.10</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>93.10</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>93.10</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3336</ID>
+      <UUID>42649162-2cd7-47cb-961d-9e7740af75b6</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001569</JobText>
+      <Description/>
+      <Date>2021-06-07T00:00:00</Date>
+      <DueDate>2021-06-17T00:00:00</DueDate>
+      <Amount>17053.25</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>17053.25</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>17053.25</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
+        <Name>Irish Studio, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
+        <Name>Liam Lynch</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3337</ID>
+      <UUID>b77f7b96-c5db-4e0d-b8b2-eba7e99358ef</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002359</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>434.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>434.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>434.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>fc08ca25-92b6-4795-9f7e-e116a1e57cd8</UUID>
+        <Name>O&amp;M Industries</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3338</ID>
+      <UUID>8b12895d-c9a4-4db0-9ae1-be2093230c86</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002358</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>589.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>589.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>589.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>fc08ca25-92b6-4795-9f7e-e116a1e57cd8</UUID>
+        <Name>O&amp;M Industries</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3339</ID>
+      <UUID>c775fa1e-bfd8-4af0-adb8-1f47c61f5a2f</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002344</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>175.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>175.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>175.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3340</ID>
+      <UUID>636028d3-a717-459f-9af1-d428bdb5a2d7</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002343</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>225.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>225.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>225.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3341</ID>
+      <UUID>0e218fcf-5e51-4585-892e-97e17aecb585</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002342</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>520.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>520.00</AmountIncludingTax>
+      <AmountPaid>10.00</AmountPaid>
+      <AmountOutstanding>510.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ca193089-a2a6-40b1-a09a-972655db22d0</UUID>
+        <Name>LA Golf</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3342</ID>
+      <UUID>f02d0824-9107-4c07-ae58-60993a13c996</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002292</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>280.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>280.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>280.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>ecc152f8-d854-4741-97c9-2c8f5a37d995</UUID>
+        <Name>Good Life Naturals</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3343</ID>
+      <UUID>a69e3485-4a20-42ff-85b3-5ca21312d9fb</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002273</JobText>
+      <Description/>
+      <Date>2021-05-25T00:00:00</Date>
+      <DueDate>2021-06-04T00:00:00</DueDate>
+      <Amount>160.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>160.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>160.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>d22eb0a3-ff97-4deb-9edc-52a0ef73f57e</UUID>
+        <Name>Zipperstop</Name>
+      </Client>
+      <Contact>
+        <UUID>78c408d2-cddc-4e31-9055-395e469a07dd</UUID>
+        <Name>Keith Kreizel</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3344</ID>
+      <UUID>6e410d2b-e37d-49fb-8216-a6e4a980c1b0</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002273</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>320.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>320.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>320.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>d22eb0a3-ff97-4deb-9edc-52a0ef73f57e</UUID>
+        <Name>Zipperstop</Name>
+      </Client>
+      <Contact>
+        <UUID>78c408d2-cddc-4e31-9055-395e469a07dd</UUID>
+        <Name>Keith Kreizel</Name>
+      </Contact>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3345</ID>
+      <UUID>94cf54d4-fbef-47c7-949f-3c111a056693</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J002448</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>500.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>500.00</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>500.00</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>aa67c266-8fb8-4816-9320-2a697acaa68f</UUID>
+        <Name>Dendro</Name>
+      </Client>
+    </Invoice>
+    <Invoice>
+      <ID>INV-3346</ID>
+      <UUID>a4620a65-cb33-439e-8602-612b3af5f569</UUID>
+      <Type>Progress Invoice</Type>
+      <JobText>J001543</JobText>
+      <Description/>
+      <Date>2021-06-08T00:00:00</Date>
+      <DueDate>2021-06-18T00:00:00</DueDate>
+      <Amount>262.33</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>262.33</AmountIncludingTax>
+      <AmountPaid>0.00</AmountPaid>
+      <AmountOutstanding>262.33</AmountOutstanding>
+      <Status>Approved</Status>
+      <Client>
+        <UUID>5b6000c9-03fb-484f-9f9e-f572cffe5517</UUID>
+        <Name>Kubient</Name>
+      </Client>
+      <Contact>
+        <UUID>bdaf81f8-2f5b-4192-989e-7fff52f36943</UUID>
+        <Name>Paul Roberts</Name>
+      </Contact>
+    </Invoice>
+  </Invoices>
+</Response>

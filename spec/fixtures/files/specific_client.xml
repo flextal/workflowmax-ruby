@@ -1,0 +1,41 @@
+<Response api-method="Get">
+  <Status>OK</Status>
+  <Client>
+    <UUID>d9de2716-215c-47fe-ac5b-03d21bb61b52</UUID>
+    <Name>Brand Pollinators</Name>
+    <Email>kate@brandpollinators.com</Email>
+    <Address/>
+    <City/>
+    <Region>California</Region>
+    <PostCode/>
+    <Country/>
+    <PostalAddress/>
+    <PostalCity/>
+    <PostalRegion/>
+    <PostalPostCode/>
+    <PostalCountry/>
+    <Phone>4257853766</Phone>
+    <Fax/>
+    <Website>http://brandpollinators.com</Website>
+    <ReferralSource/>
+    <ExportCode/>
+    <IsProspect>No</IsProspect>
+    <IsArchived>No</IsArchived>
+    <IsDeleted>No</IsDeleted>
+    <Contacts>
+      <Contact>
+        <UUID>71b3188d-e717-4154-9224-6d1955137082</UUID>
+        <Name>Kate Fosson</Name>
+        <Mobile/>
+        <Email>kate@brandpollinators.com</Email>
+        <Phone>4257853766</Phone>
+        <Position>Owner/ Founder</Position>
+        <Salutation/>
+        <Addressee/>
+        <IsPrimary>No</IsPrimary>
+      </Contact>
+    </Contacts>
+    <Notes/>
+    <WebUrl>https://my.workflowmax.com/Client/28654505/Detail</WebUrl>
+  </Client>
+</Response>

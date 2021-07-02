@@ -17,8 +17,10 @@ module WorkflowMaxRuby::Jobs
     attr_accessor :uuid
     attr_accessor :name
     attr_accessor :description
-    attr_accessor :state
     attr_accessor :client_order_number
+    attr_accessor :budget
+    attr_accessor :state
+    attr_accessor :type
     attr_accessor :start_date
     attr_accessor :due_date
     attr_accessor :completed_date
@@ -27,6 +29,9 @@ module WorkflowMaxRuby::Jobs
     attr_accessor :manager
     attr_accessor :partner
     attr_accessor :assigned
+    attr_accessor :tasks
+    attr_accessor :milestones
+    attr_accessor :notes
     attr_accessor :web_url
 
 
@@ -37,7 +42,9 @@ module WorkflowMaxRuby::Jobs
         :'uuid' => :'UUID',
         :'name' => :'Name',
         :'description' => :'Description',
+        :'budget' => :'Budget',
         :'state' => :'State',
+        :'type' => :'Type',
         :'client_order_number' => :'ClientOrderNumber',
         :'start_date' => :'StartDate',
         :'due_date' => :'DueDate',
@@ -47,6 +54,9 @@ module WorkflowMaxRuby::Jobs
         :'manager' => :'Manager',
         :'partner' => :'Partner',
         :'assigned' => :'Assigned',
+        :'tasks' => :'Tasks',
+        :'milestones' => :'Milestones',
+        :'notes' => :'Notes',
         :'web_url' => :'WebUrl'
       }
     end
@@ -58,7 +68,9 @@ module WorkflowMaxRuby::Jobs
         :'uuid' => :'String',
         :'name' => :'String',
         :'description' => :'String',
+        :'budget' => :'Float',
         :'state' => :'String',
+        :'type' => :'String',
         :'client_order_number' => :'String',
         :'start_date' => :'DateTime',
         :'due_date' => :'DateTime',
@@ -67,8 +79,12 @@ module WorkflowMaxRuby::Jobs
         :'contact' => :'Contact',
         :'manager' => :'Manager',
         :'partner' => :'Partner',
-        :'assigned' => :'Assigned',
+        :'assigned' => :'Array<Staff>',
+        :'tasks' => :'Array<Task>',
+        :'milestones' => :'Array<Milestone>',
+        :'notes' => :'String',
         :'web_url' => :'String'
+
       }
     end
 
@@ -87,6 +103,10 @@ module WorkflowMaxRuby::Jobs
         h[k.to_sym] = v
       }
 
+      if attributes.key?(:'id')
+        self.project_id = attributes[:'id']
+      end
+
       if attributes.key?(:'uuid')
         self.project_id = attributes[:'uuid']
       end
@@ -97,6 +117,74 @@ module WorkflowMaxRuby::Jobs
 
       if attributes.key?(:'description')
         self.name = attributes[:'description']
+      end
+
+      if attributes.key?(:'budget')
+        self.name = attributes[:'budget']
+      end
+
+      if attributes.key?(:'state')
+        self.name = attributes[:'state']
+      end
+
+      if attributes.key?(:'type')
+        self.name = attributes[:'type']
+      end
+
+      if attributes.key?(:'client_order_number')
+        self.name = attributes[:'client_order_number']
+      end
+
+      if attributes.key?(:'start_date')
+        self.name = attributes[:'start_date']
+      end
+
+      if attributes.key?(:'due_date')
+        self.name = attributes[:'due_date']
+      end
+
+      if attributes.key?(:'completed_date')
+        self.name = attributes[:'completed_date']
+      end
+
+      if attributes.key?(:'client')
+        self.name = attributes[:'client']
+      end
+
+      if attributes.key?(:'contact')
+        self.name = attributes[:'contact']
+      end
+
+      if attributes.key?(:'manager')
+        self.name = attributes[:'manager']
+      end
+
+      if attributes.key?(:'partner')
+        self.name = attributes[:'partner']
+      end
+
+      if attributes.key?(:'assigned')
+        self.name = attributes[:'assigned']
+      end
+
+      if attributes.key?(:'tasks')
+        if (value = attributes[:'tasks']).is_a?(Array)
+          self.tasks = value
+        end
+      end
+
+      if attributes.key?(:'milestones')
+        if (value = attributes[:'milestones']).is_a?(Array)
+          self.milestones = value
+        end
+      end
+
+      if attributes.key?(:'notes')
+        self.name = attributes[:'notes']
+      end
+
+      if attributes.key?(:'web_url')
+        self.name = attributes[:'web_url']
       end
     end
 
@@ -123,9 +211,26 @@ module WorkflowMaxRuby::Jobs
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
+        id == o.id &&
         uuid == o.uuid &&
         name == o.name &&
-        description == o.description
+        description == o.description &&
+        budget == o.budget &&
+        state == o.state &&
+        type == o.type &&
+        client_order_number == o.client_order_number &&
+        start_date == o.start_date &&
+        due_date == o.due_date &&
+        completed_date == o.completed_date &&
+        client == o.client &&
+        contact == o.contact &&
+        manager == o.manager &&
+        partner == o.partner &&
+        assigned == o.assigned &&
+        tasks == o.tasks &&
+        milestones == o.milestones &&
+        notes == o.notes &&
+        web_url == o.web_url
     end
 
     # @see the `==` method
@@ -137,7 +242,7 @@ module WorkflowMaxRuby::Jobs
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [uuid, name, description].hash
+      [id, uuid, name, description, budget, state, type, client_order_number, start_date, due_date, completed_date, client, contact, manager, partner, assigned, tasks, milestones, notes, web_url].hash
     end
 
     # Builds the object from hash
@@ -159,7 +264,13 @@ module WorkflowMaxRuby::Jobs
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
-            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+            attributes[self.class.attribute_map[key]].each do |a|
+              if a[1].is_a?(Array)
+                self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              else
+                self.send("#{key}=", a.map { |v| _deserialize($1, v) })
+              end
+            end
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -207,6 +318,8 @@ module WorkflowMaxRuby::Jobs
             hash[_deserialize(k_type, k)] = _deserialize(v_type, v)
           end
         end
+      when :Assigned
+        WorkflowMaxRuby::Jobs.const_get(type).build_from_hash(value[1])
       else # model
         WorkflowMaxRuby::Jobs.const_get(type).build_from_hash(value)
       end

@@ -12,29 +12,24 @@ OpenAPI Generator version: 4.3.1
 require 'time'
 require 'date'
 
-module WorkflowMaxRuby::Tasks
+module WorkflowMaxRuby::Jobs
   require 'bigdecimal'
 
-  class Tasks
+  class Milestones
 
-    attr_accessor :status
-
-
-    attr_accessor :task_list
+    attr_accessor :milestones
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'status' => :'status',
-        :'task_list' => :'task_list'
+        :'milestones' => :'Milestones'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
-        :'status' => :'status',
-        :'items' => :'Array<Task>'
+        :'milestones' => :'Array<Milestone>'
       }
     end
 
@@ -42,24 +37,20 @@ module WorkflowMaxRuby::Tasks
     # @param [Hash] attributes Model attributes in the form of hash
     def initialize(attributes = {})
       if (!attributes.is_a?(Hash))
-        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Tasks::Tasks` initialize method"
+        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Jobs::Milestones` initialize method"
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Tasks::Tasks`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Jobs::Milestones`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
 
-      if attributes.key?(:'status')
-        self.status = attributes[:'status']
-      end
-
-      if attributes.key?(:'task_list')
-        if (value = attributes[:'task_list']).is_a?(Array)
-          self.task_list = value
+      if attributes.key?(:'tasks')
+        if (value = attributes[:'tasks']).is_a?(Array)
+          self.tasks = value
         end
       end
     end
@@ -82,8 +73,7 @@ module WorkflowMaxRuby::Tasks
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
-        status == o.status &&
-        task_list == o.task_list
+        milestones == o.milestones
     end
 
     # @see the `==` method
@@ -95,7 +85,7 @@ module WorkflowMaxRuby::Tasks
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [status, task_list].hash
+      [milestones].hash
     end
 
     # Builds the object from hash
@@ -116,6 +106,12 @@ module WorkflowMaxRuby::Tasks
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            attributes[self.class.attribute_map[key]].each do |a|
+              if a.is_a?(Array)
+                self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              end
+            end
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -164,7 +160,7 @@ module WorkflowMaxRuby::Tasks
           end
         end
       else # model
-        WorkflowMaxRuby::Tasks.const_get(type).build_from_hash(value)
+        WorkflowMaxRuby::Jobs.const_get(type).build_from_hash(value)
       end
     end
 

@@ -189,34 +189,34 @@ describe WorkflowMaxRuby::ApiClient do
   # end
 
 
-  describe '#deserialize' do
-    it "handles Array<Integer>" do
-      api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'text/xml' }
-      response = double('response', headers: headers, body: '<response>[12, 34]</response>')
-      data = api_client.deserialize(response, 'Array<Integer>', 'JobApi')
-      expect(data).to be_instance_of(Array)
-      expect(data).to eq([12, 34])
-    end
-
-    it 'handles Array<Array<Integer>>' do
-      api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'text/xml' }
-      response = double('response', headers: headers, body: '<response>[[12, 34], [56]]</response>')
-      data = api_client.deserialize(response, 'Array<Array<Integer>>', 'JobApi')
-      expect(data).to be_instance_of(Array)
-      expect(data).to eq([[12, 34], [56]])
-    end
-
-    it 'handles Hash<String, String>' do
-      api_client = WorkflowMaxRuby::ApiClient.new
-      headers = { 'Content-Type' => 'text/xml' }
-      response = double('response', headers: headers, body: '<response>{"message": "Hello"}</response>')
-      data = api_client.deserialize(response, 'Hash<String, String>', 'AcountingApi')
-      expect(data).to be_instance_of(Hash)
-      expect(data).to eq(:message => 'Hello')
-    end
-  end
+  # describe '#deserialize' do
+  #   it "handles Array<Integer>" do
+  #     api_client = WorkflowMaxRuby::ApiClient.new
+  #     headers = { 'Content-Type' => 'text/xml' }
+  #     response = double('response', headers: headers, body: '<response>[12, 34]</response>')
+  #     data = api_client.deserialize(response, 'Array<Integer>', 'JobApi')
+  #     expect(data).to be_instance_of(Array)
+  #     expect(data).to eq([12, 34])
+  #   end
+  #
+  #   it 'handles Array<Array<Integer>>' do
+  #     api_client = WorkflowMaxRuby::ApiClient.new
+  #     headers = { 'Content-Type' => 'text/xml' }
+  #     response = double('response', headers: headers, body: '<response>[[12, 34], [56]]</response>')
+  #     data = api_client.deserialize(response, 'Array<Array<Integer>>', 'JobApi')
+  #     expect(data).to be_instance_of(Array)
+  #     expect(data).to eq([[12, 34], [56]])
+  #   end
+  #
+  #   it 'handles Hash<String, String>' do
+  #     api_client = WorkflowMaxRuby::ApiClient.new
+  #     headers = { 'Content-Type' => 'text/xml' }
+  #     response = double('response', headers: headers, body: '<response>{"message": "Hello"}</response>')
+  #     data = api_client.deserialize(response, 'Hash<String, String>', 'AcountingApi')
+  #     expect(data).to be_instance_of(Hash)
+  #     expect(data).to eq(:message => 'Hello')
+  #   end
+  # end
 
   describe "#object_to_hash modifies a hash from snake_case to PascalCase" do
     contact_after = {"Contacts"=>{"Contact"=>{"Name"=>"\"Bruce Banner\"", "EmailAddress"=>"\"hulk@avengers.com\"", "Phones"=>{"Phone"=>{"PhoneType"=>"\"MOBILE\"", "PhoneNumber"=>"\"555-1212\"", "PhoneAreaCode"=>"\"415\""}}, "PaymentTerms"=>{"PaymentTerm"=>{"Bills"=>{"Bill"=>{"Day"=>"15", "Type"=>"\"OFCURRENTMONTH\""}}, "Sales"=>{"Sale"=>{"Day"=>"10", "Type"=>"\"DAYSAFTERBILLMONTH\""}}}}}}}

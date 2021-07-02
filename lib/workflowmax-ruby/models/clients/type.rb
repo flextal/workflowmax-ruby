@@ -25,10 +25,10 @@ module WorkflowMaxRuby::Clients
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'name' => :'name',
-        :'cost_markup' => :'cost_markup',
-        :'payment_term' => :'payment_term',
-        :'payment_day' => :'payment_day'
+        :'name' => :'Name',
+        :'cost_markup' => :'CostMarkup',
+        :'payment_term' => :'PaymentTerm',
+        :'payment_day' => :'PaymentDay'
       }
     end
 

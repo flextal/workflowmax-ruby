@@ -116,11 +116,47 @@ module WorkflowMaxRuby::Jobs
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
         end # or else data not found in attributes(hash), not an issue as the data can be optional
       end
+
+
+
+
+      # if attributes.is_a?(Array)
+      #   self.class.openapi_types.each_pair do |key, type|
+      #     if type =~ /\AArray<(.*)>/i
+      #       # check to ensure the input is an array given that the attribute
+      #       # is documented as an array but the input is not
+      #       if attributes[self.class.attribute_map[key]].is_a?(Array)
+      #         self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+      #       end
+      #     else
+      #       search_key = self.class.attribute_map[key]
+      #       if attributes[0] == search_key
+      #         self.send("#{key}", _deserialize(type, attributes[1]))
+      #       end
+      #     end # or else data not found in attributes(hash), not an issue as the data can be optional
+      #   end
+      # else
+      #   self.class.openapi_types.each_pair do |key, type|
+      #     if type =~ /\AArray<(.*)>/i
+      #       # check to ensure the input is an array given that the attribute
+      #       # is documented as an array but the input is not
+      #       if attributes[self.class.attribute_map[key]].is_a?(Array)
+      #         self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+      #       else
+      #         self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
+      #       end
+      #     elsif !attributes[self.class.attribute_map[key]].nil?
+      #       self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
+      #     end # or else data not found in attributes(hash), not an issue as the data can be optional
+      #   end
+      # end
 
       self
     end

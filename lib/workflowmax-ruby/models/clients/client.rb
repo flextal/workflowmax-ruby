@@ -46,40 +46,42 @@ module WorkflowMaxRuby::Clients
     attr_accessor :account_manager
     attr_accessor :type
     attr_accessor :contacts
+    attr_accessor :billing_client
 
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'uuid' => :'uuid',
-        :'name' => :'name',
-        :'title' => :'title',
-        :'gender' => :'gender',
-        :'first_name' => :'first_name',
-        :'last_name' => :'last_name',
-        :'other_name' => :'other_name',
-        :'email' => :'email',
-        :'date_of_birth' => :'date_of_birth',
-        :'address' => :'address',
-        :'city' => :'city',
-        :'region' => :'region',
-        :'post_code' => :'post_code',
-        :'country' => :'country',
-        :'postal_address' => :'postal_address',
-        :'postal_city' => :'postal_city',
-        :'postal_region' => :'postal_region',
-        :'postal_post_code' => :'postal_post_code',
-        :'phone' => :'phone',
-        :'fax' => :'fax',
-        :'website' => :'website',
-        :'referral_source' => :'referral_source',
-        :'export_code' => :'export_code',
-        :'is_prospect' => :'is_prospect',
-        :'is_archived' => :'is_archived',
-        :'is_deleted' => :'is_deleted',
-        :'account_manager' => :'account_manager',
-        :'type' => :'type',
-        :'contacts' => :'contacts'
+        :'uuid' => :'UUID',
+        :'name' => :'Name',
+        :'title' => :'Title',
+        :'gender' => :'Gender',
+        :'first_name' => :'FirstName',
+        :'last_name' => :'LastName',
+        :'other_name' => :'OtherName',
+        :'email' => :'Email',
+        :'date_of_birth' => :'DateOfBirth',
+        :'address' => :'Address',
+        :'city' => :'City',
+        :'region' => :'Region',
+        :'post_code' => :'PostCode',
+        :'country' => :'Country',
+        :'postal_address' => :'PostalAddress',
+        :'postal_city' => :'PostalCity',
+        :'postal_region' => :'PostalRegion',
+        :'postal_post_code' => :'PostalPostCode',
+        :'phone' => :'Phone',
+        :'fax' => :'Fax',
+        :'website' => :'Website',
+        :'referral_source' => :'ReferralSource',
+        :'export_code' => :'ExportCode',
+        :'is_prospect' => :'IsProspect',
+        :'is_archived' => :'IsArchived',
+        :'is_deleted' => :'IsDeleted',
+        :'account_manager' => :'AccountManager',
+        :'type' => :'Type',
+        :'contacts' => :'Contacts',
+        :'billing_client' => :'BillingClient'
       }
     end
 
@@ -114,8 +116,8 @@ module WorkflowMaxRuby::Clients
         :'is_deleted' => :'Boolean',
         :'account_manager' => :'AccountManager',
         :'type' => :'Type',
-        :'contacts' => :'Contacts',
-        :'billing_contact' => :'BillingContact'
+        :'contacts' => :'Array<Contact>',
+        :'billing_client' => :'BillingClient'
       }
     end
 
@@ -340,6 +342,8 @@ module WorkflowMaxRuby::Clients
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -387,8 +391,10 @@ module WorkflowMaxRuby::Clients
             hash[_deserialize(k_type, k)] = _deserialize(v_type, v)
           end
         end
+      when :Contact
+        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value[1])
       else # model
-        WorkflowMaxRuby::Clients::Client.const_get(type).build_from_hash(value)
+        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value)
       end
     end
 

@@ -122,4 +122,23 @@ describe 'Job' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
+
+  describe 'testing milestones and tasks' do
+    it 'should contain milestones' do
+      xml_file = File.open(File.dirname(__FILE__ ) + '/../../fixtures/files/job_milestones.xml')
+      data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
+
+      test_obj = @instance.build_from_hash(data[:Job])
+      expect(test_obj.milestones.length).to eq(7)
+    end
+
+    it 'should contain tasks' do
+      xml_file = File.open(File.dirname(__FILE__ ) + '/../../fixtures/files/job_milestones.xml')
+      data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
+
+      test_obj = @instance.build_from_hash(data[:Job])
+      expect(test_obj.tasks.length).to eq(4)
+    end
+  end
+
 end

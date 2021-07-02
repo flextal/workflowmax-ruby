@@ -1,0 +1,332 @@
+<Response api-method="Get">
+  <Status>OK</Status>
+  <Quote>
+    <ID>Q000281</ID>
+    <Type>Quote</Type>
+    <State>Accepted</State>
+    <Name>Monthly Marketing Management </Name>
+    <Description>Monthly Marketing Management including 3 key facets
+      1. Paid Media Marketing
+      2. Social Media Marketing
+      3. Content Creation
+
+      Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+      This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+    <Budget>3170.00</Budget>
+    <OptionExplanation/>
+    <Date>2021-02-24T00:00:00</Date>
+    <ValidDate>2021-03-26T00:00:00</ValidDate>
+    <EstimatedCost>4710.00</EstimatedCost>
+    <EstimatedCostTax>0.00</EstimatedCostTax>
+    <EstimatedCostIncludingTax>4710.00</EstimatedCostIncludingTax>
+    <Amount>2470.00</Amount>
+    <AmountTax>0.00</AmountTax>
+    <AmountIncludingTax>2470.00</AmountIncludingTax>
+    <Client>
+      <UUID>ecc152f8-d854-4741-97c9-2c8f5a37d995</UUID>
+      <Name>Good Life Naturals</Name>
+    </Client>
+    <Contact>
+      <UUID>88239ec4-2bda-4c7e-aaed-1d23ef1c4163</UUID>
+      <Name>Holly Valencia</Name>
+    </Contact>
+    <Tasks>
+      <Task>
+        <Name>10401 Marketing + Branding</Name>
+        <Description>Monthly Marketing Management including 3 key facets
+          1. Paid Media Marketing
+          2. Social Media Marketing
+          3. Content Creation
+        </Description>
+        <EstimatedMinutes>2280</EstimatedMinutes>
+        <BillableRate>65.00</BillableRate>
+        <Billable>Yes</Billable>
+        <Amount>2470.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>2470.00</AmountIncludingTax>
+      </Task>
+    </Tasks>
+    <Costs>
+      <Cost>
+        <Description>Additional Work</Description>
+        <Note>Additional work required to complete the Task/Job</Note>
+        <Code>2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>475.00</UnitCost>
+        <UnitPrice>641.25</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Additional Work </Description>
+        <Note>Social Media Management - February</Note>
+        <Code>2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>475.00</UnitCost>
+        <UnitPrice>641.25</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Administration + Support</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Design + Creative</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Discount</Description>
+        <Note/>
+        <Code>1/2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Discount</Description>
+        <Note/>
+        <Code>1/2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Engineering + Development</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Licensing of Assets</Description>
+        <Note>Theme, Images, Designs</Note>
+        <Code>2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Marketing + Branding</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Operations</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Other Services</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Paid Media Work</Description>
+        <Note>Project management
+          Audit # of sites/platforms, # audiences
+          Research # of target audiences, platforms
+          Plan, calendar, budget, develop KPIs then analyze, optimize and report</Note>
+        <Code>3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>1120.00</UnitCost>
+        <UnitPrice>1512.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Paid Media Work</Description>
+        <Note>Online Paid Media and Content Management - February</Note>
+        <Code>3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>1120.00</UnitCost>
+        <UnitPrice>1512.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Sales + Growth</Description>
+        <Note>Work Assignment (PO):
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.
+        </Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Strategy + Finance</Description>
+        <Note>Work Assignment (PO)
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+
+          Any specific requirements or directions...
+          Assemble Customer will direct all work-related matters.
+          Assemble Account Manager will be a liaison between you and the Customer.</Note>
+        <Code>1/2</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Talent Hiring Fee</Description>
+        <Note>Fee charged for hiring talent (minimum of 25% of annual compensation, unless agreed to in writing)</Note>
+        <Code>1/2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+      <Cost>
+        <Description>Talent Hiring Fee</Description>
+        <Note>Fee charged for hiring talent (minimum of 25% of annual compensation, unless agreed to in writing)</Note>
+        <Code>1/2/3</Code>
+        <Billable>No</Billable>
+        <Quantity>1.00</Quantity>
+        <UnitCost>0.00</UnitCost>
+        <UnitPrice>0.00</UnitPrice>
+        <Amount>0.00</Amount>
+        <AmountTax>0.00</AmountTax>
+        <AmountIncludingTax>0.00</AmountIncludingTax>
+      </Cost>
+    </Costs>
+    <Options/>
+  </Quote>
+</Response>

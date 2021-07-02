@@ -19,6 +19,7 @@ module WorkflowMaxRuby::Invoices
     # Statuses: Approved, Paid, Draft, Cancelled
     attr_accessor :status
     attr_accessor :job_text
+    attr_accessor :description
     attr_accessor :date
     attr_accessor :due_date
     attr_accessor :amount
@@ -33,18 +34,42 @@ module WorkflowMaxRuby::Invoices
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'uuid' => :'uuid',
-        :'name' => :'name',
-        :'description' => :'description'
+        :'id' => :'ID',
+        :'uuid' => :'UUID',
+        :'type' => :'Type',
+        :'status' => :'Status',
+        :'job_text' => :'JobText',
+        :'description' => :'Description',
+        :'date' => :'Date',
+        :'due_date' => :'DueDate',
+        :'amount' => :'Amount',
+        :'amount_tax' => :'AmountTax',
+        :'amount_including_tax' => :'AmountIncludingTax',
+        :'amount_paid' => :'AmountPaid',
+        :'amount_outstanding' => :'AmountOutstanding',
+        :'client' => :'Client',
+        :'contact' => :'Contact'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
+        :'id' => :'String',
         :'uuid' => :'String',
-        :'name' => :'String',
+        :'type' => :'String',
+        :'status' => :'String',
+        :'job_text' => :'String',
         :'description' => :'String',
+        :'date' => :'DateTime',
+        :'due_date' => :'DateTime',
+        :'amount' => :'Float',
+        :'amount_tax' => :'Float',
+        :'amount_including_tax' => :'Float',
+        :'amount_paid' => :'Float',
+        :'amount_outstanding' => :'Float',
+        :'client' => :'Client',
+        :'contact' => :'Contact'
       }
     end
 
@@ -63,16 +88,64 @@ module WorkflowMaxRuby::Invoices
         h[k.to_sym] = v
       }
 
+      if attributes.key?(:'id')
+        self.project_id = attributes[:'id']
+      end
+
       if attributes.key?(:'uuid')
         self.project_id = attributes[:'uuid']
       end
 
-      if attributes.key?(:'name')
-        self.contact_id = attributes[:'name']
+      if attributes.key?(:'type')
+        self.name = attributes[:'type']
+      end
+
+      if attributes.key?(:'status')
+        self.name = attributes[:'status']
+      end
+
+      if attributes.key?(:'job_text')
+        self.name = attributes[:'job_text']
       end
 
       if attributes.key?(:'description')
         self.name = attributes[:'description']
+      end
+
+      if attributes.key?(:'date')
+        self.name = attributes[:'date']
+      end
+
+      if attributes.key?(:'due_date')
+        self.name = attributes[:'due_date']
+      end
+
+      if attributes.key?(:'amount')
+        self.name = attributes[:'amount']
+      end
+
+      if attributes.key?(:'amount_tax')
+        self.name = attributes[:'amount_tax']
+      end
+
+      if attributes.key?(:'amount_including_tax')
+        self.name = attributes[:'amount_including_tax']
+      end
+
+      if attributes.key?(:'amount_paid')
+        self.name = attributes[:'amount_paid']
+      end
+
+      if attributes.key?(:'amount_outstanding')
+        self.name = attributes[:'amount_outstanding']
+      end
+
+      if attributes.key?(:'client')
+        self.name = attributes[:'client']
+      end
+
+      if attributes.key?(:'contact')
+        self.name = attributes[:'contact']
       end
     end
 
@@ -99,9 +172,21 @@ module WorkflowMaxRuby::Invoices
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
+        id == o.id &&
         uuid == o.uuid &&
-        name == o.name &&
-        description == o.description
+        type == o.type &&
+        status == o.status &&
+        job_text == o.job_text &&
+        description == o.description &&
+        date == o.date &&
+        due_date == o.due_date &&
+        amount == o.amount &&
+        amount_tax == o.amount_tax &&
+        amount_including_tax == o.amount_including_tax &&
+        amount_paid == o.amount_paid &&
+        amount_outstanding == o.amount_outstanding &&
+        client == o.client &&
+        contact == o.contact
     end
 
     # @see the `==` method
@@ -113,7 +198,7 @@ module WorkflowMaxRuby::Invoices
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [uuid, name, description].hash
+      [id, uuid, type, status, job_text, description, date, due_date, amount, amount_tax, amount_including_tax, amount_paid, amount_outstanding, client, contact].hash
     end
 
     # Builds the object from hash
@@ -134,6 +219,8 @@ module WorkflowMaxRuby::Invoices
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -149,6 +236,10 @@ module WorkflowMaxRuby::Invoices
     # @return [Object] Deserialized data
     def _deserialize(type, value)
       case type.to_sym
+      when :DateTime
+        DateTime.parse(parse_date(value))
+      when :Date
+        Date.parse(parse_date(value))
       when :String
         value.to_s
       when :Integer
@@ -210,6 +301,18 @@ module WorkflowMaxRuby::Invoices
     # Returns the object in the form of hash with snake_case
     def to_attributes
       to_hash(downcase: true)
+    end
+
+
+    def parse_date(datestring)
+      if datestring.include?('Date')
+        date_pattern = /\/Date\((-?\d+)(\+\d+)?\)\//
+        original, date, timezone = *date_pattern.match(datestring)
+        date = (date.to_i / 1000)
+        Time.at(date).utc.strftime('%Y-%m-%dT%H:%M:%S%z').to_s
+      else # handle date 'types' for small subset of payroll API's
+        Time.parse(datestring).strftime('%Y-%m-%dT%H:%M:%S').to_s
+      end
     end
 
     # Outputs non-array value in the form of hash

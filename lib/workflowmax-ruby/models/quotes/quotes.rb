@@ -12,27 +12,27 @@ OpenAPI Generator version: 4.3.1
 require 'time'
 require 'date'
 
-module WorkflowMaxRuby::Jobs
+module WorkflowMaxRuby::Quotes
   require 'bigdecimal'
 
-  class Jobs
+  class Quotes
 
-    attr_accessor :Status
-    attr_accessor :Jobs
+    attr_accessor :status
+    attr_accessor :quotes
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'Status' => :'Status',
-        :'Jobs' => :'Jobs'
+        :'status' => :'Status',
+        :'quotes' => :'Quotes'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
-        :'Status' => :'String',
-        :'Jobs' => :'Array<Job>'
+        :'status' => :'String',
+        :'quotes' => :'Array<Quote>'
       }
     end
 
@@ -46,7 +46,7 @@ module WorkflowMaxRuby::Jobs
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Jobs::Jobs`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Quotes::Quotes`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
@@ -55,9 +55,9 @@ module WorkflowMaxRuby::Jobs
         self.status = attributes[:'status']
       end
 
-      if attributes.key?(:'jobs')
-        if (value = attributes[:'jobs']).is_a?(Array)
-          self.jobs = value
+      if attributes.key?(:'quotes')
+        if (value = attributes[:'quotes']).is_a?(Array)
+          self.quotes = value
         end
       end
     end
@@ -81,7 +81,7 @@ module WorkflowMaxRuby::Jobs
       return true if self.equal?(o)
       self.class == o.class &&
         status == o.status &&
-        jobs == o.jobs
+        quotes == o.quotes
     end
 
     # @see the `==` method
@@ -93,7 +93,7 @@ module WorkflowMaxRuby::Jobs
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [status, jobs].hash
+      [status, quotes].hash
     end
 
     # Builds the object from hash
@@ -167,10 +167,8 @@ module WorkflowMaxRuby::Jobs
             hash[_deserialize(k_type, k)] = _deserialize(v_type, v)
           end
         end
-      # when :Job
-      #   WorkflowMaxRuby::Jobs.const_get(type).build_from_hash(value)
       else # model
-        WorkflowMaxRuby::Jobs.const_get(type).build_from_hash(value)
+        WorkflowMaxRuby::Quotes.const_get(type).build_from_hash(value)
       end
     end
 

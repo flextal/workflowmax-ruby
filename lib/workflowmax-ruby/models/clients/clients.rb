@@ -23,15 +23,15 @@ module WorkflowMaxRuby::Clients
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'status' => :'status',
-        :'clients' => :'clients'
+        :'status' => :'Status',
+        :'clients' => :'Clients'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
-        :'status' => :'status',
+        :'status' => :'String',
         :'clients' => :'Array<Client>'
       }
     end
@@ -114,6 +114,12 @@ module WorkflowMaxRuby::Clients
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
+            attributes[self.class.attribute_map[key]].each do |a|
+              if a.is_a?(Array)
+                self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              end
+            end
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -162,7 +168,7 @@ module WorkflowMaxRuby::Clients
           end
         end
       else # model
-        WorkflowMaxRuby::Clients::Clients.const_get(type).build_from_hash(value)
+        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value)
       end
     end
 

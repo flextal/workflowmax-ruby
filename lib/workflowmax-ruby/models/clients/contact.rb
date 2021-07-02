@@ -30,15 +30,15 @@ module WorkflowMaxRuby::Clients
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'uuid' => :'uuid',
-        :'is_primary' => :'is_primary',
-        :'name' => :'name',
-        :'salutation' => :'salutation',
-        :'addressee' => :'addressee',
-        :'mobile' => :'mobile',
-        :'email' => :'email',
-        :'phone' => :'phone',
-        :'position' => :'position'
+        :'uuid' => :'UUID',
+        :'is_primary' => :'IsPrimary',
+        :'name' => :'Name',
+        :'salutation' => :'Salutation',
+        :'addressee' => :'Addressee',
+        :'mobile' => :'Mobile',
+        :'email' => :'Email',
+        :'phone' => :'Phone',
+        :'position' => :'Position'
       }
     end
 
@@ -172,6 +172,8 @@ module WorkflowMaxRuby::Clients
           # check to ensure the input is an array given that the attribute
           # is documented as an array but the input is not
           if attributes[self.class.attribute_map[key]].is_a?(Array)
+            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+          elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           end
         elsif !attributes[self.class.attribute_map[key]].nil?

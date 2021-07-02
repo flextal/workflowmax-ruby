@@ -1,0 +1,1008 @@
+<Response api-method="Current">
+  <Status>OK</Status>
+  <Quotes>
+    <Quote>
+      <ID>Q000135</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Pinterest Manager</Name>
+      <Description>Pinterest Manager for up to 15 hours per month for Brand Pollinators
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1200.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>450.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>450.00</EstimatedCostIncludingTax>
+      <Amount>945.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>945.00</AmountIncludingTax>
+      <Client>
+        <UUID>d9de2716-215c-47fe-ac5b-03d21bb61b52</UUID>
+        <Name>Brand Pollinators</Name>
+      </Client>
+      <Contact>
+        <UUID>71b3188d-e717-4154-9224-6d1955137082</UUID>
+        <Name>Kate Fosson</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000136</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Social Media Manager</Name>
+      <Description>Social Media Manager for up to 30 hours per month for Trendyy Studio.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2424.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>1500.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1500.00</EstimatedCostIncludingTax>
+      <Amount>2424.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2424.00</AmountIncludingTax>
+      <Client>
+        <UUID>3658d72c-8db1-409a-9ec3-f3d766dcd901</UUID>
+        <Name>Trendyy Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>5df4ce00-0594-43c7-b16a-fb9d9fa20074</UUID>
+        <Name>Stephen Sullivan</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000137</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Content Writer</Name>
+      <Description>Content Writer for up to 20 hours per month to write up to 3 SEO-Rich blogs per month for Trendyy Studio.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1299.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>800.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>800.00</EstimatedCostIncludingTax>
+      <Amount>1300.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1300.00</AmountIncludingTax>
+      <Client>
+        <UUID>3658d72c-8db1-409a-9ec3-f3d766dcd901</UUID>
+        <Name>Trendyy Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>5df4ce00-0594-43c7-b16a-fb9d9fa20074</UUID>
+        <Name>Stephen Sullivan</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000138</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Amazon Marketer</Name>
+      <Description>Assemble will match an Amazon Marketing Expert for up to 30 hours per month to manage product optimization and paid media on the Amazon platform for Trendyy Studio.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>3200.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>1500.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1500.00</EstimatedCostIncludingTax>
+      <Amount>2271.90</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2271.90</AmountIncludingTax>
+      <Client>
+        <UUID>3658d72c-8db1-409a-9ec3-f3d766dcd901</UUID>
+        <Name>Trendyy Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>5df4ce00-0594-43c7-b16a-fb9d9fa20074</UUID>
+        <Name>Stephen Sullivan</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000139</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Social Media Content Creator</Name>
+      <Description>Assemble will match a Social Media Content Creator for up to 30 hours per month to receive existing products from Customer and create photos and product videos for Customer's Social Media. Talent will work with Customer and Social Media Manager to receive direction and strategy for the content.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2000.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>1500.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1500.00</EstimatedCostIncludingTax>
+      <Amount>2000.10</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2000.10</AmountIncludingTax>
+      <Client>
+        <UUID>3658d72c-8db1-409a-9ec3-f3d766dcd901</UUID>
+        <Name>Trendyy Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>5df4ce00-0594-43c7-b16a-fb9d9fa20074</UUID>
+        <Name>Stephen Sullivan</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000140</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Senior UI Engineer</Name>
+      <Description>Senior User Interface Engineer for up to 40 hours per week for 13 weeks to provide front-end development, CMS support, and code customization for Hearst Magazines.
+
+        Upon accepting an expert match, Hearst Magazines will be responsible for onboarding and training to internal processes, technologies, and expectations.
+
+        This Expert will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget/>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>36400.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>36400.00</EstimatedCostIncludingTax>
+      <Amount>57200.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>57200.00</AmountIncludingTax>
+      <Client>
+        <UUID>ae6de0fa-c35b-4ee2-96e6-2833bbb4017b</UUID>
+        <Name>Hearst Magazines</Name>
+      </Client>
+      <Contact>
+        <UUID>9ff4c594-3057-434c-b09b-4d2b4ee6583a</UUID>
+        <Name>Maureen O'Malley</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000141</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>1.1  Assemble EMS</Name>
+      <Description>12 months of Flexible Talent services
+        For Enterprises wanting to improve staffing agility, but not lose control
+      </Description>
+      <Budget>60000.00</Budget>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>0.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>0.00</EstimatedCostIncludingTax>
+      <Amount>60000.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>60000.00</AmountIncludingTax>
+      <Client>
+        <UUID>ae6de0fa-c35b-4ee2-96e6-2833bbb4017b</UUID>
+        <Name>Hearst Magazines</Name>
+      </Client>
+      <Contact>
+        <UUID>9ff4c594-3057-434c-b09b-4d2b4ee6583a</UUID>
+        <Name>Maureen O'Malley</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000142</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Paid Social</Name>
+      <Description>Assemble will match an Expert in Paid Social Media  for up to 40 hours per week (160 hours per month) to provide ongoing Paid Social Media Management for Customer.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>12621.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>8000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>8000.00</EstimatedCostIncludingTax>
+      <Amount>12620.80</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>12620.80</AmountIncludingTax>
+      <Client>
+        <UUID>ae6de0fa-c35b-4ee2-96e6-2833bbb4017b</UUID>
+        <Name>Hearst Magazines</Name>
+      </Client>
+      <Contact>
+        <UUID>9ff4c594-3057-434c-b09b-4d2b4ee6583a</UUID>
+        <Name>Maureen O'Malley</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000143</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Business Analysts</Name>
+      <Description>Assemble will match a Senior Business Analyst proficient in COBOL to contract for up to 40 hours per week to collaborate and work across the EvolveWare team to gather, understand, and analyze user applications and needs, then translate them into business rules in the Intellisys platform.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>11712.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>8000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>8000.00</EstimatedCostIncludingTax>
+      <Amount>11712.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>11712.00</AmountIncludingTax>
+      <Client>
+        <UUID>36201a1e-b687-4dda-b87e-a99833b6b8c8</UUID>
+        <Name>EvolveWare Inc</Name>
+      </Client>
+      <Contact>
+        <UUID>5b0c7ce0-c4b1-40c0-a980-118d014ed8a9</UUID>
+        <Name>Mike Helft</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000144</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Social Media Manager</Name>
+      <Description>Assemble will match a Social Media Manager for up to 40 hours per month to provide Social Media Management for Trendyy Studio.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2400.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>1200.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1200.00</EstimatedCostIncludingTax>
+      <Amount>2400.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2400.00</AmountIncludingTax>
+      <Client>
+        <UUID>3658d72c-8db1-409a-9ec3-f3d766dcd901</UUID>
+        <Name>Trendyy Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>5df4ce00-0594-43c7-b16a-fb9d9fa20074</UUID>
+        <Name>Stephen Sullivan</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000145</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>React Native Developer</Name>
+      <Description>Assemble will match a React Native Developer to contract for up to 30 hours per month to collaborate and work with the Tap Sticker team to support and develop the app in the Apple and Android store.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2852.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>1800.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1800.00</EstimatedCostIncludingTax>
+      <Amount>2850.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2850.00</AmountIncludingTax>
+      <Client>
+        <UUID>b2125ac7-4183-4e00-b032-edb2ab55b846</UUID>
+        <Name>Tap</Name>
+      </Client>
+      <Contact>
+        <UUID>4f99c4bf-f885-4fde-9f5c-baa8addbd2df</UUID>
+        <Name>Philip Greenwald</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000146</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Business Development Reps</Name>
+      <Description>Assemble will match a Business Development Rep for up to 160 hours per month to provide business development services for Customer.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>5886.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-28T00:00:00</Date>
+      <ValidDate>2021-01-27T00:00:00</ValidDate>
+      <EstimatedCost>4000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>4000.00</EstimatedCostIncludingTax>
+      <Amount>5888.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>5888.00</AmountIncludingTax>
+      <Client>
+        <UUID>b0eb2ac8-ca13-4721-8a02-e10461c591bd</UUID>
+        <Name>TIDAL</Name>
+      </Client>
+      <Contact>
+        <UUID>ca02a542-e63b-409f-9be0-e9efac4c8714</UUID>
+        <Name>Steven Schmidt</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000147</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Digital Marketer</Name>
+      <Description>Assemble will match a Digital Marketer with experience in B2B content to contract for up to 20 hours per month to generate content and post across social media platforms.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2060.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1200.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1200.00</EstimatedCostIncludingTax>
+      <Amount>2060.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2060.00</AmountIncludingTax>
+      <Client>
+        <UUID>e2ac1b4b-f481-4f31-88a2-12b3f559f9f4</UUID>
+        <Name>SocialSellinator</Name>
+      </Client>
+      <Contact>
+        <UUID>ba22fc1e-e7c2-454f-9715-3341bef24b0f</UUID>
+        <Name>Jock Breitwieser</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000148</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Paid Media Buyer</Name>
+      <Description>Assemble will match a Paid Media Buyer for up to 15 hours per month to provide paid media services for Customer.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1195.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>750.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>750.00</EstimatedCostIncludingTax>
+      <Amount>1194.90</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1194.90</AmountIncludingTax>
+      <Client>
+        <UUID>99ee27e9-9e51-44de-a89e-c28a82d53eef</UUID>
+        <Name>Gatsby Media</Name>
+      </Client>
+      <Contact>
+        <UUID>5348a441-d9d4-486e-a537-d178b193f62a</UUID>
+        <Name>James S</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000149</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Copywriter</Name>
+      <Description>Assemble will match a Copywriter for up to 15 hours per month to provide sales and marketing copywriting for Customer.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1195.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>750.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>750.00</EstimatedCostIncludingTax>
+      <Amount>1195.05</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1195.05</AmountIncludingTax>
+      <Client>
+        <UUID>99ee27e9-9e51-44de-a89e-c28a82d53eef</UUID>
+        <Name>Gatsby Media</Name>
+      </Client>
+      <Contact>
+        <UUID>5348a441-d9d4-486e-a537-d178b193f62a</UUID>
+        <Name>James S</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000150</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Account Manager/ Client Services Role</Name>
+      <Description>Assemble will match a customer facing Account Manager for up to 80 hours per month to provide account management for EMBER.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>4450.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>2400.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>2400.00</EstimatedCostIncludingTax>
+      <Amount>4450.40</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4450.40</AmountIncludingTax>
+      <Client>
+        <UUID>253bb620-23da-4d6d-abed-dd075742005c</UUID>
+        <Name>EMBER</Name>
+      </Client>
+      <Contact>
+        <UUID>dc0bbc04-c344-48c8-b0eb-ce54a7b21b41</UUID>
+        <Name>Jonathan Staley</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000151</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>SEO and Google Ads Manager</Name>
+      <Description>Assemble will match an SEO and Google Ads Manager for up to 20 hours per month to provide SEO and Google Ad services for Customer.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1585.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1000.00</EstimatedCostIncludingTax>
+      <Amount>1585.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1585.00</AmountIncludingTax>
+      <Client>
+        <UUID>44ad72fa-1e4b-4864-a283-d67b93bfbc85</UUID>
+        <Name>Beast Sports Nutrition</Name>
+      </Client>
+      <Contact>
+        <UUID>dddef64a-9563-43aa-9449-23f8ee592ea0</UUID>
+        <Name>Maria Altieri</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000152</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Social Media Strategist</Name>
+      <Description>Assemble will match a Social Media Strategist for up to 40 hours per month to provide Social Media Strategy and management for Customer
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2860.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1600.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1600.00</EstimatedCostIncludingTax>
+      <Amount>2860.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2860.00</AmountIncludingTax>
+      <Client>
+        <UUID>44ad72fa-1e4b-4864-a283-d67b93bfbc85</UUID>
+        <Name>Beast Sports Nutrition</Name>
+      </Client>
+      <Contact>
+        <UUID>dddef64a-9563-43aa-9449-23f8ee592ea0</UUID>
+        <Name>Maria Altieri</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000153</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Android Developer</Name>
+      <Description>Assemble will match an Android Developer for up to 112 hours per month to provide Android development for Soundwave Hearing, LLC.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>9899.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>6720.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>6720.00</EstimatedCostIncludingTax>
+      <Amount>9898.56</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>9898.56</AmountIncludingTax>
+      <Client>
+        <UUID>e594d904-c4ff-410c-8760-bd50f7a251d2</UUID>
+        <Name>Soundwave Hearing, LLC</Name>
+      </Client>
+      <Contact>
+        <UUID>037da5cd-3f25-4836-8215-baba7ff8a00d</UUID>
+        <Name>Christopher Sixt</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000156</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Ad Strategist and Buyer</Name>
+      <Description>Assemble will match an Ad Strategist and Buyer for up to 40 hours per month to provide digital strategy for McCarty Creative Strategies.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2535.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1600.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1600.00</EstimatedCostIncludingTax>
+      <Amount>2535.20</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2535.20</AmountIncludingTax>
+      <Client>
+        <UUID>98b05569-2419-42fc-8f95-663f82390981</UUID>
+        <Name>McCarty Creative Strategies</Name>
+      </Client>
+      <Contact>
+        <UUID>12b3b7f0-f096-4b09-a934-1462b05d4d76</UUID>
+        <Name>Delphia McCarty</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000157</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Wix/ Webflow Designer</Name>
+      <Description>Assemble will match a Wix/ Webflow Designer to contract for up to 20 hours per month to create templated websites for BOLT Consulting.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>950.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>600.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>600.00</EstimatedCostIncludingTax>
+      <Amount>950.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>950.00</AmountIncludingTax>
+      <Client>
+        <UUID>0f13e8a8-bdbf-41d6-a5fb-c8bcc483e66b</UUID>
+        <Name>BOLT Consulting</Name>
+      </Client>
+      <Contact>
+        <UUID>b624b75b-af6c-4489-b171-f97e0d8a933b</UUID>
+        <Name>Jake Bolling</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000158</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Web and Brand Designer</Name>
+      <Description>Assemble will match a Web and Brand Designer experienced in website and brand design for SAAS companies to contract for up to 20 hours per month to create templated websites for Pixelswithin.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1420.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>800.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>800.00</EstimatedCostIncludingTax>
+      <Amount>1420.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1420.00</AmountIncludingTax>
+      <Client>
+        <UUID>dec39722-d2e1-4b4e-9065-913ff1da6e28</UUID>
+        <Name>Pixelswithin</Name>
+      </Client>
+      <Contact>
+        <UUID>3a4e76e6-054d-4cd9-a599-646e8cdc33fc</UUID>
+        <Name>Diana Lopez</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000159</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Digital Marketing Manager</Name>
+      <Description>Assemble will match a Digital Marketing Manager for up to 15 hours per month to provide digital marketing for Customer
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1545.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>900.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>900.00</EstimatedCostIncludingTax>
+      <Amount>1545.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1545.00</AmountIncludingTax>
+      <Client>
+        <UUID>9d3e255a-cdbf-4b17-bc45-91f3ef8f2d58</UUID>
+        <Name>M3 Life Sciences</Name>
+      </Client>
+      <Contact>
+        <UUID>b3b79acf-496d-44cb-83f1-1dba93744fd6</UUID>
+        <Name>Kate Rolston</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000163</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Jet App Build</Name>
+      <Description>Software Development Project:
+        Full development, project management, QA, and delivery of the app scoped in the PRD of AWR-1430
+
+        Hours are estimated by Task and totaled for the Project
+        Actual hours will be tracked, and reported on a regular cadence
+        Actual hours will be billed on a regular cadence (typically every 2 weeks)
+        Hours per Task and Project may be adjusted with approval/ notice
+        NOTE: Some work may be completed by talent on set contracts (not hourly)
+        Duration may be extended or shortened and total hours adjusted with approval/ notice
+      </Description>
+      <Budget>300000.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>169700.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>169700.00</EstimatedCostIncludingTax>
+      <Amount>298672.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>298672.00</AmountIncludingTax>
+      <Client>
+        <UUID>c5e22d13-cbf0-4071-99b3-82a18befe71d</UUID>
+        <Name>Seed Here Studio</Name>
+      </Client>
+      <Contact>
+        <UUID>cc761c49-6698-44d4-9dd1-52d3feb32493</UUID>
+        <Name>Charles M Armstrong IV</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000166</ID>
+      <Type>Quote</Type>
+      <State>Issued</State>
+      <Name>Development Requirements - Voting Platform</Name>
+      <Description>Assemble will match a Product Engineer or Team of Talent to contract for up to 26 hours to discover resource needs, map a product workflow, and confirm a development scope for a voting platform.
+
+        For Custom Projects that need pre or early development phases to be completed.
+        Work can include research, planning, budgeting, and needs definition.
+        Does not include legal review, tweaks for legal concerns or filing for legal protection.
+        Costs per line item are estimates.</Description>
+      <Budget>1700.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1090.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1090.00</EstimatedCostIncludingTax>
+      <Amount>1704.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1704.00</AmountIncludingTax>
+      <Client>
+        <UUID>c255d268-4c79-4671-b2da-734a6425e771</UUID>
+        <Name>mllnnl</Name>
+      </Client>
+      <Contact>
+        <UUID>98438cd2-1e40-4ed2-8bad-01c050cf825e</UUID>
+        <Name>Jill Huelser</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000173</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Social Media and Marketing Manager</Name>
+      <Description>Assemble will match a Social Media Manager for up to 60 hours per month to provide social media management for Modern Village.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>2865.00</Budget>
+      <OptionExplanation/>
+      <Date>2020-12-29T00:00:00</Date>
+      <ValidDate>2021-01-28T00:00:00</ValidDate>
+      <EstimatedCost>1800.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1800.00</EstimatedCostIncludingTax>
+      <Amount>2865.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2865.00</AmountIncludingTax>
+      <Client>
+        <UUID>8cf7f760-4e88-42c5-82c2-c99a7729737f</UUID>
+        <Name>Modern Village</Name>
+      </Client>
+      <Contact>
+        <UUID>7e79d6e3-5aa4-4c40-bc0c-d00012a5c9a5</UUID>
+        <Name>Luke Tremblay</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000132</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Digital Marketing Admin Assistant</Name>
+      <Description>Digital Marketing Admin Assistant for up to 40 hours per week for up to 13 weeks to provide marketing and brand building for NX.
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>4500.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-01-04T00:00:00</Date>
+      <ValidDate>2021-02-04T00:00:00</ValidDate>
+      <EstimatedCost>3000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>3000.00</EstimatedCostIncludingTax>
+      <Amount>4620.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>4620.00</AmountIncludingTax>
+      <Client>
+        <UUID>943fc18c-8e0a-407f-b660-03f85e525711</UUID>
+        <Name>NX</Name>
+      </Client>
+      <Contact>
+        <UUID>e7f205aa-fc79-448f-b3a8-d4fb24c8e35f</UUID>
+        <Name>David Baur-Ray CST</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000134</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Full-Stack IT Support and Development</Name>
+      <Description>Development/ IT Expert for up to 20 hours per month for Meyers Manx.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1550.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-01-04T00:00:00</Date>
+      <ValidDate>2021-02-04T00:00:00</ValidDate>
+      <EstimatedCost>1000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1000.00</EstimatedCostIncludingTax>
+      <Amount>1550.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>1550.00</AmountIncludingTax>
+      <Client>
+        <UUID>29acf5c8-0bf0-481d-8daa-1193f004cd30</UUID>
+        <Name>Meyers Manx</Name>
+      </Client>
+      <Contact>
+        <UUID>58c1f4c9-101c-4ff0-9913-3f72d091a98e</UUID>
+        <Name>Dave Lin</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000216/1</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>WordPress Developer</Name>
+      <Description>Assemble will match an Experienced WordPress Developer for up to 20 hours per week for up to 9 weeks to develop a WordPress website for Brave People.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.
+
+        Actual hours will be billed on a regular cadence (typically every 2 weeks).
+        Hours may be adjusted with approval/ notice.
+        Duration may be extended or shortened and total hours adjusted with approval/ notice.
+      </Description>
+      <Budget>2000.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-01-15T00:00:00</Date>
+      <ValidDate>2021-02-14T00:00:00</ValidDate>
+      <EstimatedCost>9000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>9000.00</EstimatedCostIncludingTax>
+      <Amount>10980.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>10980.00</AmountIncludingTax>
+      <Client>
+        <UUID>10a91a7c-be2b-41fe-8f8a-db0e363d178a</UUID>
+        <Name>Gabe Lopez</Name>
+      </Client>
+      <Contact>
+        <UUID>ceebbb65-fe83-4748-828b-cec5fd05d8d3</UUID>
+        <Name>Gabe Lopez</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000268/1</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Full-Stack Developer</Name>
+      <Description>Assemble will match an Experienced Full-Stack Developer with 24/7 availability to contract for up to 20 hours per week for a minimum of 13 weeks to provide on-going WordPress development and maintenance for Smart 1 Marketing.
+
+        Smart 1 Marketing will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Smart 1 Marketing, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.
+
+        Actual hours will be billed on a regular cadence (typically every 2 weeks).
+        Hours may be adjusted with approval/ notice.
+        Duration may be extended or shortened and total hours adjusted with approval/ notice.b
+      </Description>
+      <Budget>5600.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-02-16T00:00:00</Date>
+      <ValidDate>2021-03-18T00:00:00</ValidDate>
+      <EstimatedCost>4325.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>4325.00</EstimatedCostIncludingTax>
+      <Amount>6660.50</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>6660.50</AmountIncludingTax>
+      <Client>
+        <UUID>68304e13-181e-4cbc-ae4a-43b1ec11fd50</UUID>
+        <Name>Smart 1 Marketing</Name>
+      </Client>
+      <Contact>
+        <UUID>b34a16e8-99fd-4bbd-915e-67e0ec086036</UUID>
+        <Name>LOUANN JOHNSON</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000296</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Definition and Discovery - Interspun</Name>
+      <Description>Assemble will match Talent to apply time towards Consulting, Discovery, Identifying Technology Needs, an Estimate on Hours Per Phase, Development of a Vetted Product Requirements Document, and a Final System Flowchart for Interspun's platform.
+
+        Interspun will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Interspun, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.
+
+        Actual hours will be billed on a regular cadence (typically every 2 weeks).
+        Hours may be adjusted with approval/ notice.
+        Duration may be extended or shortened and total hours adjusted with approval/ notice.
+      </Description>
+      <Budget>5000.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-03-04T00:00:00</Date>
+      <ValidDate>2021-04-03T00:00:00</ValidDate>
+      <EstimatedCost>3000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>3000.00</EstimatedCostIncludingTax>
+      <Amount>5000.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>5000.00</AmountIncludingTax>
+      <Client>
+        <UUID>a3dffe6a-f44d-4135-b13b-e468f67911fd</UUID>
+        <Name>Interspun</Name>
+      </Client>
+      <Contact>
+        <UUID>0e106887-b00f-4607-9d82-3b6a0fc6af07</UUID>
+        <Name>Ben Rohr</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000298</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Custom Graphic</Name>
+      <Description>Assemble will match an experienced Graphic Designer to contract for up to 7 hours to develop and design a Custom Graphic for Chief Outsiders.
+
+        Does not include legal review, tweaks for legal concerns or filing for legal protection.
+        Costs per line item are estimates.
+      </Description>
+      <Budget>500.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-03-04T00:00:00</Date>
+      <ValidDate>2021-04-03T00:00:00</ValidDate>
+      <EstimatedCost>200.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>200.00</EstimatedCostIncludingTax>
+      <Amount>350.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>350.00</AmountIncludingTax>
+      <Client>
+        <UUID>e3fed8c4-2d58-4b48-a899-622bf34534c8</UUID>
+        <Name>Chief Outsiders</Name>
+      </Client>
+      <Contact>
+        <UUID>1af16570-c1dc-45a1-8315-a6cb833e2d3a</UUID>
+        <Name>Bill Taylor</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000312/1</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>Google Ads and SEO Strategy Audit</Name>
+      <Description>Assemble will match Talent to apply time towards a full audit of Fortia's existing Google Ads and SEO Strategy; delivering one final Analysis containing discoveries, opportunities, and recommendations for optimization.
+
+        Fortia will communicate directly with the talent matched to this project and be responsible for communicating any internal processes, technologies, or expectations at project launch.
+
+        The talent relationship with Fortia will be augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+      <Budget>1500.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-03-10T00:00:00</Date>
+      <ValidDate>2021-04-09T00:00:00</ValidDate>
+      <EstimatedCost>1000.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1000.00</EstimatedCostIncludingTax>
+      <Amount>2500.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2500.00</AmountIncludingTax>
+      <Client>
+        <UUID>0af5c5b1-1cd1-430b-a097-dbd05b50fd00</UUID>
+        <Name>Fortia</Name>
+      </Client>
+      <Contact>
+        <UUID>0490185e-616f-44f3-be6e-b662e77bff04</UUID>
+        <Name>Augusto  Amezcua</Name>
+      </Contact>
+    </Quote>
+    <Quote>
+      <ID>Q000437</ID>
+      <Type>Estimate</Type>
+      <State>Issued</State>
+      <Name>WordPress Developer</Name>
+      <Description>WordPress Developer for up to 10 hours per week to provide a new marketing site for Airtight/O&amp;M Industries.
+
+        Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
+
+        This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.
+
+        Actual hours will be billed on a regular cadence (typically every 2 weeks).
+        Hours may be adjusted with approval/ notice.
+        Duration may be extended or shortened and total hours adjusted with approval/ notice.
+      </Description>
+      <Budget>2480.00</Budget>
+      <OptionExplanation/>
+      <Date>2021-06-07T00:00:00</Date>
+      <ValidDate>2021-07-07T00:00:00</ValidDate>
+      <EstimatedCost>1600.00</EstimatedCost>
+      <EstimatedCostTax>0.00</EstimatedCostTax>
+      <EstimatedCostIncludingTax>1600.00</EstimatedCostIncludingTax>
+      <Amount>2480.00</Amount>
+      <AmountTax>0.00</AmountTax>
+      <AmountIncludingTax>2480.00</AmountIncludingTax>
+      <Client>
+        <UUID>fc08ca25-92b6-4795-9f7e-e116a1e57cd8</UUID>
+        <Name>O&amp;M Industries</Name>
+      </Client>
+      <Contact>
+        <UUID>79084e3c-a669-4c08-8cb1-75b754b771e2</UUID>
+        <Name>Chris Albright</Name>
+      </Contact>
+    </Quote>
+  </Quotes>
+</Response>

@@ -218,4 +218,15 @@ describe 'Client' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
+
+  describe 'test build_from_hash' do
+    it 'should load client data and not be empty' do
+      xml_file = File.open(File.dirname(__FILE__ ) + '/../../fixtures/files/specific_client.xml')
+      data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
+
+      test_obj = @instance.build_from_hash(data[:Client])
+
+      expect(test_obj).to_not be_nil
+    end
+  end
 end
