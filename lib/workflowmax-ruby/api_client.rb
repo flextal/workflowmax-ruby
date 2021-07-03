@@ -503,12 +503,13 @@ module WorkflowMaxRuby
         when 'ClientApi'
           WorkflowMaxRuby::Clients.const_get(return_type).build_from_hash(data)
         when 'InvoiceApi'
-          WorkflowMaxRuby::Invoice.const_get(return_type).build_from_hash(data)
+          WorkflowMaxRuby::Invoices.const_get(return_type).build_from_hash(data)
         when 'TaskApi'
           WorkflowMaxRuby::Tasks.const_get(return_type).build_from_hash(data)
         when 'JobApi'
           WorkflowMaxRuby::Jobs.const_get(return_type).build_from_hash(data)
-          # WorkflowMaxRuby::Jobs.const_get(return_type).build_from_xml(data)
+        when 'QuoteApi'
+          WorkflowMaxRuby::Quotes.const_get(return_type).build_from_hash(data)
         else
           WorkflowMaxRuby::Accounting.const_get(return_type).build_from_hash(data)
         end

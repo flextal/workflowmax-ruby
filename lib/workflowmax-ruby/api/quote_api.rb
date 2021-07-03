@@ -35,7 +35,7 @@ module WorkflowMaxRuby
         fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling QuoteApi.get_quotes"
       end
       # resource path
-      local_var_path = '/current'
+      local_var_path = 'current'
 
       # header parameters
       header_params = opts[:header_params] || {}
