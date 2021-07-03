@@ -149,7 +149,7 @@ describe WorkflowMaxRuby::ApiClient do
       expect(api_client.config.base_url).to eq('https://api.xero.com')
 
       api_client.client_api
-      expect(api_client.config.base_url).to eq('https://api.workflowmax.com/client.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/client.api/')
 
       api_client.invoice_api
       expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/invoice.api/')
