@@ -102,6 +102,11 @@ module WorkflowMaxRuby
       WorkflowMaxRuby::TaskApi.new(self)
     end
 
+    def quote_api
+      @config.base_url = @config.quote_url
+      WorkflowMaxRuby::QuoteApi.new(self)
+    end
+
     # Token Helpers
     def token_set
       @config.token_set

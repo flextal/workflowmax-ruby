@@ -15,6 +15,7 @@ describe WorkflowMaxRuby::Configuration do
       expect(config.invoice_url).to eq('https://api.xero.com/workflowmax/3.0/invoice.api/')
       expect(config.job_url).to eq('https://api.xero.com/workflowmax/3.0/job.api/')
       expect(config.task_url).to eq('https://api.xero.com/workflowmax/3.0/task.api/')
+      expect(config.quote_url).to eq('https://api.xero.com/workflowmax/3.0/quote.api/')
     end
   end
 

@@ -211,6 +211,10 @@ require 'workflowmax-ruby/models/quotes/quotes'
 require 'workflowmax-ruby/models/quotes/quote'
 require 'workflowmax-ruby/models/quotes/client'
 require 'workflowmax-ruby/models/quotes/contact'
+require 'workflowmax-ruby/models/invoices/invoices'
+require 'workflowmax-ruby/models/invoices/invoice'
+require 'workflowmax-ruby/models/invoices/client'
+require 'workflowmax-ruby/models/invoices/contact'
 
 # APIs
 require 'workflowmax-ruby/api/files_api'

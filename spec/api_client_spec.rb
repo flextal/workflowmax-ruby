@@ -159,6 +159,9 @@ describe WorkflowMaxRuby::ApiClient do
 
       api_client.task_api
       expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/task.api/')
+
+      api_client.quote_api
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/quote.api/')
     end
 
     it "does not mutate the original opts hash" do
