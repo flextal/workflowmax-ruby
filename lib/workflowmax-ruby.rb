@@ -215,6 +215,10 @@ require 'workflowmax-ruby/models/invoices/invoices'
 require 'workflowmax-ruby/models/invoices/invoice'
 require 'workflowmax-ruby/models/invoices/client'
 require 'workflowmax-ruby/models/invoices/contact'
+require 'workflowmax-ruby/models/staff/staff_list'
+require 'workflowmax-ruby/models/staff/staff'
+require 'workflowmax-ruby/models/suppliers/suppliers'
+require 'workflowmax-ruby/models/suppliers/supplier'
 
 # APIs
 require 'workflowmax-ruby/api/files_api'
@@ -226,6 +230,8 @@ require 'workflowmax-ruby/api/invoice_api'
 require 'workflowmax-ruby/api/job_api'
 require 'workflowmax-ruby/api/quote_api'
 require 'workflowmax-ruby/api/task_api'
+require 'workflowmax-ruby/api/staff_api'
+require 'workflowmax-ruby/api/supplier_api'
 
 module WorkflowMaxRuby
   class << self

@@ -12,19 +12,12 @@ OpenAPI Generator version: 4.3.1
 require 'time'
 require 'date'
 
-module WorkflowMaxRuby::Clients
+module WorkflowMaxRuby::Suppliers
   require 'bigdecimal'
 
-  class Client
+  class Supplier
     attr_accessor :uuid
     attr_accessor :name
-    attr_accessor :title
-    attr_accessor :gender
-    attr_accessor :first_name
-    attr_accessor :last_name
-    attr_accessor :other_name
-    attr_accessor :email
-    attr_accessor :date_of_birth
     attr_accessor :address
     attr_accessor :city
     attr_accessor :region
@@ -38,15 +31,7 @@ module WorkflowMaxRuby::Clients
     attr_accessor :phone
     attr_accessor :fax
     attr_accessor :website
-    attr_accessor :referral_source
-    attr_accessor :export_code
-    attr_accessor :is_prospect
-    attr_accessor :is_archived
-    attr_accessor :is_deleted
-    attr_accessor :account_manager
-    attr_accessor :type
     attr_accessor :contacts
-    attr_accessor :billing_client
 
 
     # Attribute mapping from ruby-style variable name to JSON key.
@@ -54,13 +39,6 @@ module WorkflowMaxRuby::Clients
       {
         :'uuid' => :'UUID',
         :'name' => :'Name',
-        :'title' => :'Title',
-        :'gender' => :'Gender',
-        :'first_name' => :'FirstName',
-        :'last_name' => :'LastName',
-        :'other_name' => :'OtherName',
-        :'email' => :'Email',
-        :'date_of_birth' => :'DateOfBirth',
         :'address' => :'Address',
         :'city' => :'City',
         :'region' => :'Region',
@@ -74,15 +52,7 @@ module WorkflowMaxRuby::Clients
         :'phone' => :'Phone',
         :'fax' => :'Fax',
         :'website' => :'Website',
-        :'referral_source' => :'ReferralSource',
-        :'export_code' => :'ExportCode',
-        :'is_prospect' => :'IsProspect',
-        :'is_archived' => :'IsArchived',
-        :'is_deleted' => :'IsDeleted',
-        :'account_manager' => :'AccountManager',
-        :'type' => :'Type',
-        :'contacts' => :'Contacts',
-        :'billing_client' => :'BillingClient'
+        :'contacts' => :'Contacts'
       }
     end
 
@@ -91,13 +61,6 @@ module WorkflowMaxRuby::Clients
       {
         :'uuid' => :'String',
         :'name' => :'String',
-        :'title' => :'String',
-        :'gender' => :'String',
-        :'first_name' => :'String',
-        :'last_name' => :'String',
-        :'other_name' => :'String',
-        :'email' => :'String',
-        :'date_of_birth' => :'DateTime',
         :'address' => :'String',
         :'city' => :'String',
         :'region' => :'String',
@@ -111,15 +74,7 @@ module WorkflowMaxRuby::Clients
         :'phone' => :'String',
         :'fax' => :'String',
         :'website' => :'String',
-        :'referral_source' => :'String',
-        :'export_code' => :'String',
-        :'is_prospect' => :'Boolean',
-        :'is_archived' => :'Boolean',
-        :'is_deleted' => :'Boolean',
-        :'account_manager' => :'AccountManager',
-        :'type' => :'Type',
-        :'contacts' => :'Array<Contact>',
-        :'billing_client' => :'BillingClient'
+        :'contacts' => :'Array<Contact>'
       }
     end
 
@@ -127,13 +82,13 @@ module WorkflowMaxRuby::Clients
     # @param [Hash] attributes Model attributes in the form of hash
     def initialize(attributes = {})
       if (!attributes.is_a?(Hash))
-        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Clients::Client` initialize method"
+        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Suppliers::Supplier` initialize method"
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Clients::Client`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Suppliers::Supplier`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
@@ -144,34 +99,6 @@ module WorkflowMaxRuby::Clients
 
       if attributes.key?(:'name')
         self.name = attributes[:'name']
-      end
-
-      if attributes.key?(:'title')
-        self.title = attributes[:'title']
-      end
-
-      if attributes.key?(:'gender')
-        self.gender = attributes[:'gender']
-      end
-
-      if attributes.key?(:'first_name')
-        self.first_name = attributes[:'first_name']
-      end
-
-      if attributes.key?(:'last_name')
-        self.last_name = attributes[:'last_name']
-      end
-
-      if attributes.key?(:'other_name')
-        self.other_name = attributes[:'other_name']
-      end
-
-      if attributes.key?(:'email')
-        self.email = attributes[:'email']
-      end
-
-      if attributes.key?(:'date_of_birth')
-        self.date_of_birth = attributes[:'date_of_birth']
       end
 
       if attributes.key?(:'address')
@@ -226,40 +153,8 @@ module WorkflowMaxRuby::Clients
         self.website = attributes[:'website']
       end
 
-      if attributes.key?(:'referral_source')
-        self.referral_source = attributes[:'v']
-      end
-
-      if attributes.key?(:'export_code')
-        self.export_code = attributes[:'export_code']
-      end
-
-      if attributes.key?(:'is_prospect')
-        self.is_prospect = attributes[:'is_prospect']
-      end
-
-      if attributes.key?(:'is_archived')
-        self.is_archived = attributes[:'is_archived']
-      end
-
-      if attributes.key?(:'is_deleted')
-        self.is_deleted = attributes[:'is_deleted']
-      end
-
-      if attributes.key?(:'account_manager')
-        self.account_manager = attributes[:'account_manager']
-      end
-
-      if attributes.key?(:'type')
-        self.type = attributes[:'type']
-      end
-
       if attributes.key?(:'contacts')
         self.contacts = attributes[:'contacts']
-      end
-
-      if attributes.key?(:'billing_client')
-        self.billing_client = attributes[:'billing_client']
       end
     end
 
@@ -288,13 +183,6 @@ module WorkflowMaxRuby::Clients
       self.class == o.class &&
         uuid == o.uuid &&
         name == o.name &&
-        title == o.title &&
-        gender == o.gender &&
-        first_name == o.first_name &&
-        last_name == o.last_name &&
-        other_name == o.other_name &&
-        email == o.email &&
-        date_of_birth == o.date_of_birth &&
         address == o.address &&
         city == o.city &&
         region == o.region &&
@@ -304,18 +192,11 @@ module WorkflowMaxRuby::Clients
         postal_city == o.postal_city &&
         postal_region == o.postal_region &&
         postal_post_code == o.postal_post_code &&
+        postal_country == o.postal_country &&
         phone == o.phone &&
         fax == o.fax &&
         website == o.website &&
-        referral_source == o.referral_source &&
-        export_code == o.export_code &&
-        is_prospect == o.is_prospect &&
-        is_archived == o.is_archived &&
-        is_deleted == o.is_deleted &&
-        account_manager == o.account_manager &&
-        type == o.type &&
-        contacts == o.contacts &&
-        billing_client == o.billing_client
+        contacts == o.contacts
     end
 
     # @see the `==` method
@@ -327,7 +208,7 @@ module WorkflowMaxRuby::Clients
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [uuid, name, title, gender, first_name, last_name, other_name, email, date_of_birth, address, city, region, post_code, country, postal_address, postal_city, postal_region, postal_post_code, phone, fax, website, referral_source, export_code, is_prospect, is_archived, is_deleted, account_manager, type, contacts, billing_client].hash
+      [uuid, name, address, city, region, post_code, country, postal_address, postal_city, postal_region, postal_post_code, postal_country, phone, fax, website, contacts].hash
     end
 
     # Builds the object from hash
@@ -398,9 +279,9 @@ module WorkflowMaxRuby::Clients
           end
         end
       when :Contact
-        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value[1])
+        WorkflowMaxRuby::Suppliers.const_get(type).build_from_hash(value[1])
       else # model
-        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value)
+        WorkflowMaxRuby::Suppliers.const_get(type).build_from_hash(value)
       end
     end
 

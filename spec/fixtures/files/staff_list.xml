@@ -1,0 +1,355 @@
+<Response api-method="List">
+  <Status>OK</Status>
+  <StaffList>
+    <Staff>
+      <UUID>e33764ec-659e-4ec5-a575-42e882a0fea0</UUID>
+      <Name>Alex Antosh</Name>
+      <Email>alex@antoshmarketing.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1069363</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>1cf774c2-ca41-43dd-91ee-41fff1d1e8ae</UUID>
+      <Name>Alex Manion</Name>
+      <Email>alex@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1027422</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>2fd97bc5-3e9a-4e5e-baf4-f09435a291c5</UUID>
+      <Name>Amy Pezzoli</Name>
+      <Email>amy@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1012425</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>77928723-507a-4ff4-b7fa-a7ac1950f2bd</UUID>
+      <Name>Blair Williams</Name>
+      <Email>blair@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1023337</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+      <Name>Blake Lopez</Name>
+      <Email>blake@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1027424</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>4c6bdf34-df48-49de-ad30-abf6eb418d3a</UUID>
+      <Name>Callie Gisler</Name>
+      <Email>gislercallie@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1053149</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>1ba7a2db-fcfe-48e3-93dc-6b5abd47383a</UUID>
+      <Name>Chris Koens</Name>
+      <Email>chris@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1027388</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>22924d34-c639-4725-b2a0-c207a9dce21d</UUID>
+      <Name>Dan Ortiz</Name>
+      <Email>dan@danortiz.digital</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1061727</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>10f194c7-932c-4cc1-bbcd-de28acd23d89</UUID>
+      <Name>Danny Beckett</Name>
+      <Email>danny@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1047507</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>d564fdd5-9783-41c6-b54e-76c25bac237b</UUID>
+      <Name>Dominique Johnson-Lindsay</Name>
+      <Email>djohnsonlindsay@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1053578</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>27a92d3f-7c0f-4e58-b9fb-c3702ae12e9a</UUID>
+      <Name>Duncan Robins</Name>
+      <Email>duncan@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1012424</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>b6c34256-3466-4e57-904f-c9ccb910ec47</UUID>
+      <Name>Dylan Rhodes</Name>
+      <Email>dylan.rhodes@parker-lambert.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1060441</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>2f6db0d1-2c9d-482f-9d67-3eb9d3521f5c</UUID>
+      <Name>Elise Michaels</Name>
+      <Email>elise@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1047506</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>fc6c7245-a26e-499c-a94d-dd7b8874ed8a</UUID>
+      <Name>Genevieve Howell</Name>
+      <Email>genevieve@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1012418</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>de33e07b-1461-47a2-96b5-c3e4e2a1e389</UUID>
+      <Name>Hammad Rasheed</Name>
+      <Email>hammad008@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1071284</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>ee86d59d-5574-40e7-96ce-8fc3312d49d4</UUID>
+      <Name>Jacob Acker</Name>
+      <Email>jake.acker1@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1030848</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>b9c8b642-fb9f-4e70-bece-ea45704c523f</UUID>
+      <Name>Jeremy Lipzinski</Name>
+      <Email>jeremylipzinski@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1030789</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>1dc1ef9f-867f-4358-bc4d-439dc84b1a41</UUID>
+      <Name>Joseph Barkawi</Name>
+      <Email>jbarkawi@itgsoftware.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1060864</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>ecb0f93c-422f-44d1-8451-f83fa268c729</UUID>
+      <Name>Keith Ward</Name>
+      <Email>keith@hireassemble.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1032514</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>b1ca9b32-aef9-4462-93ec-d2ba9b375919</UUID>
+      <Name>Kevin Delong</Name>
+      <Email>delongkevin1446@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1069782</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>be07f66a-4e9e-42ed-a837-d07fea1c38bc</UUID>
+      <Name>Kristen Coperine</Name>
+      <Email>kristen.coperine@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1062895</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>2b306368-e4aa-4f66-9212-01c4124e831e</UUID>
+      <Name>Kylen Blom</Name>
+      <Email>kylen.blom@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1027709</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>1207d561-c395-4929-b504-01a95559a804</UUID>
+      <Name>Megan Anderson HD</Name>
+      <Email>megan.anderson777@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1039356</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>76a0036e-6c5e-44fe-9b4d-347976a62a15</UUID>
+      <Name>Megan Anderson ID</Name>
+      <Email>megana@dulcidigital.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1036348</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>84770471-c29a-4155-8712-5d1a4a19793d</UUID>
+      <Name>Michael Orrison</Name>
+      <Email>orrismm@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1046012</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>4cacfc7c-8eec-4227-b34e-c6b2befed258</UUID>
+      <Name>Mitchell Terpstra</Name>
+      <Email>terpstra.mitchell@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1059366</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>029a7d05-6968-4324-8ada-d23071fe44f2</UUID>
+      <Name>Ogo Ezeofor</Name>
+      <Email>ogo.ezeofor@outlook.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1068508</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>dab1658f-d98f-4bf2-b298-c7b7c88a0a6e</UUID>
+      <Name>Radka Yordanova</Name>
+      <Email>radka.yordanova.design@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1030792</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>913df56d-350d-406d-8a19-266fa31bb4f1</UUID>
+      <Name>Sam Adrian</Name>
+      <Email>sam@reporteq.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1032515</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>d95c6ad8-162c-4e7d-b973-d16517963f40</UUID>
+      <Name>Stephanie Gustafson</Name>
+      <Email>stephanie@soundstrategy.co</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1062613</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>47945034-ed7e-4d23-a56a-89b86ee1c01d</UUID>
+      <Name>Test Expert 14</Name>
+      <Email>naripo6411@awinceo.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1067534</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>9bcb4621-98a4-4fcd-a7ab-d7293ec7908f</UUID>
+      <Name>Tom Libertiny HD</Name>
+      <Email>Rebecca@AskAStrategist.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1067969</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>5866b2fc-3476-4a65-b1db-89f3e1abed21</UUID>
+      <Name>Tom Libertiny ID</Name>
+      <Email>tom@askastrategist.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1048951</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>623e0953-730d-43a7-88cd-3cbd7f7f7673</UUID>
+      <Name>Victoria Temiz UWX</Name>
+      <Email>victoria.temiz@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1051108</WebUrl>
+    </Staff>
+    <Staff>
+      <UUID>7d6f65c2-957a-4a4f-aab0-4526ead01894</UUID>
+      <Name>Zach Barney</Name>
+      <Email>zach225@gmail.com</Email>
+      <Phone/>
+      <Mobile/>
+      <Address/>
+      <PayrollCode/>
+      <WebUrl>https://app.my.workflowmax.com/admin/resourceedit.aspx?id=1067584</WebUrl>
+    </Staff>
+  </StaffList>
+</Response>
