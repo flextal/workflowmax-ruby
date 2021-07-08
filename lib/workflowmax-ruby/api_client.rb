@@ -280,6 +280,10 @@ module WorkflowMaxRuby
         method_base_url = @config.job_url
       when "TaskApi"
         method_base_url = @config.task_url
+      when "StaffApi"
+        method_base_url = @config.staff_url
+      when "SupplierApi"
+        method_base_url = @config.supplier_url
       else
         method_base_url = @config.accounting_url
       end
@@ -520,6 +524,10 @@ module WorkflowMaxRuby
           WorkflowMaxRuby::Jobs.const_get(return_type).build_from_hash(data)
         when 'QuoteApi'
           WorkflowMaxRuby::Quotes.const_get(return_type).build_from_hash(data)
+        when 'StaffApi'
+          WorkflowMaxRuby::Staff.const_get(return_type).build_from_hash(data)
+        when 'SupplierApi'
+          WorkflowMaxRuby::Suppliers.const_get(return_type).build_from_hash(data)
         else
           WorkflowMaxRuby::Accounting.const_get(return_type).build_from_hash(data)
         end
