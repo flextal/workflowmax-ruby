@@ -35,6 +35,8 @@ module WorkflowMaxRuby
     attr_accessor :job_url
     attr_accessor :task_url
     attr_accessor :quote_url
+    attr_accessor :staff_url
+    attr_accessor :supplier_url
 
     # Defines API keys used with API Key authentications.
     #
