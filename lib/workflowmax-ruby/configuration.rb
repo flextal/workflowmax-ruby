@@ -153,6 +153,8 @@ module WorkflowMaxRuby
       @job_url = 'https://api.xero.com/workflowmax/3.0/job.api/'
       @task_url = 'https://api.xero.com/workflowmax/3.0/task.api/'
       @quote_url = 'https://api.xero.com/workflowmax/3.0/quote.api/'
+      @staff_url = 'https://api.xero.com/workflowmax/3.0/staff.api/'
+      @supplier_url = 'https://api.xero.com/workflowmax/3.0/supplier.api/'
       @access_token = nil
       @id_token = nil
       @api_key = {}
