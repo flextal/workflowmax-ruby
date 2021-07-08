@@ -137,7 +137,7 @@ describe 'Job' do
       data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
 
       test_obj = @instance.build_from_hash(data[:Job])
-      expect(test_obj.tasks.length).to eq(4)
+      expect(test_obj.tasks.length).to eq(3)
     end
   end
 

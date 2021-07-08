@@ -1,32 +1,173 @@
 <Response api-method="Get">
   <Status>OK</Status>
   <Job>
-    <ID>J001553</ID>
-    <UUID>54a6a7bc-597f-4885-84d0-c12744aa24c5</UUID>
-    <Name>Pinterest Manager</Name>
-    <Description>Pinterest Manager for up to 15 hours per month for Brand Pollinators
-
-      Customer will be responsible for onboarding talent and training them on internal processes, technologies, and expectations.
-
-      This talent will be managed by Customer, augmented with a feedback loop to an Assemble Account Manager to ensure customer success.</Description>
+    <ID>J002460</ID>
+    <UUID>8172f0fa-a841-4c6f-9318-e790dbc015df</UUID>
+    <Name>GTM &amp; GA Work - 3 Media Web</Name>
+    <Description>Assisting 3 Media Web with GTM &amp; GA work for clients.</Description>
     <Client>
-      <UUID>d9de2716-215c-47fe-ac5b-03d21bb61b52</UUID>
-      <Name>Brand Pollinators</Name>
+      <UUID>d12d5396-f261-4211-ad65-a6f2efde39e9</UUID>
+      <Name>3 Media Web</Name>
     </Client>
-    <ClientOrderNumber>AWR-1553</ClientOrderNumber>
-    <Budget>1200.00</Budget>
-    <State>Awaiting Accept</State>
+    <ClientOrderNumber/>
+    <Budget>1000.00</Budget>
+    <State>Working</State>
     <Type>Flexible Talent</Type>
-    <StartDate>2020-12-28T00:00:00</StartDate>
-    <DueDate>2020-12-28T00:00:00</DueDate>
+    <StartDate>2021-06-03T00:00:00</StartDate>
+    <DueDate>2021-12-31T00:00:00</DueDate>
     <Contact>
-      <UUID>71b3188d-e717-4154-9224-6d1955137082</UUID>
-      <Name>Kate Fosson</Name>
+      <UUID>b52bc931-10c6-466a-92b6-10b624b3d802</UUID>
+      <Name>Marc Avila</Name>
     </Contact>
-    <Assigned/>
-    <Tasks/>
+    <Manager>
+      <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+      <Name>Blake Lopez</Name>
+    </Manager>
+    <Partner>
+      <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+      <Name>Blake Lopez</Name>
+    </Partner>
+    <Assigned>
+      <Staff>
+        <UUID>84770471-c29a-4155-8712-5d1a4a19793d</UUID>
+        <Name>Michael Orrison</Name>
+      </Staff>
+    </Assigned>
+    <Tasks>
+      <Task>
+        <UUID>63d8c602-8fe5-4f20-b895-d17c324f1127</UUID>
+        <Name>10601 Engineering + Development</Name>
+        <TaskUUID>72433a49-5650-4df5-bd17-31711e94d9f0</TaskUUID>
+        <EstimatedMinutes>600</EstimatedMinutes>
+        <ActualMinutes>555</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       GTM/ GA Domain Expert</Description>
+        <Completed>false</Completed>
+        <Billable>true</Billable>
+        <Folder/>
+        <Assigned>
+          <Staff>
+            <UUID>84770471-c29a-4155-8712-5d1a4a19793d</UUID>
+            <Name>Michael Orrison</Name>
+          </Staff>
+        </Assigned>
+      </Task>
+      <Task>
+        <UUID>5ab13823-5365-4413-a701-078f97ba93db</UUID>
+        <Name>10601 Strategy + Finance</Name>
+        <TaskUUID>0acfd9db-8ab6-4036-a7be-a84af500fa0e</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information	</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>d889918b-eb98-4ee8-bc05-2fc8b025df1b</UUID>
+        <Name>10401 Sales + Growth</Name>
+        <TaskUUID>d4d9279a-7929-4223-bf43-275156ac6a27</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information
+        </Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>727d540a-eac0-4e9c-aa02-551aaf534b20</UUID>
+        <Name>10401 Marketing + Branding</Name>
+        <TaskUUID>6b231aba-b7a9-4616-bdd7-2dc7142e746d</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information	</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>da1f6f4c-33c2-4d01-932a-74def98de7e4</UUID>
+        <Name>10601 Design + Creative</Name>
+        <TaskUUID>2124dae4-1639-4804-8be0-45ce2a361cd7</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     X /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>6d0269ea-7e10-49f2-ab64-1906da9fb69b</UUID>
+        <Name>10401 Operations</Name>
+        <TaskUUID>31c73fc4-2360-4d14-a1c6-333788e3a396</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information	</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>39297704-5200-4fb1-afb7-0dc0052bd4ec</UUID>
+        <Name>10401 Administration + Support</Name>
+        <TaskUUID>7f1e3dda-8e27-45d4-b598-6999e8dc7627</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information	</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+      <Task>
+        <UUID>2ba16be5-5928-40d3-8b56-39fc898969f9</UUID>
+        <Name>10401 Other Services</Name>
+        <TaskUUID>45093c1a-3b93-412d-bc3b-a09474368860</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Job/ Position Summary
+          Role:       Position Name
+          Rate:       $XXX.00 /Hour
+          Hours:     XX /Week (est)
+          Duration: Up to X Weeks (est)
+          Any specific requirements or information	</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
+      </Task>
+    </Tasks>
     <Milestones/>
     <Notes/>
-    <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=50762981</WebUrl>
+    <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=52282540</WebUrl>
   </Job>
 </Response>

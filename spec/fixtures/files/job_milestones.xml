@@ -1,258 +1,135 @@
 <Response api-method="Get">
   <Status>OK</Status>
   <Job>
-    <ID>J001569</ID>
-    <UUID>76984c04-f347-4751-9f77-5ff2960cff03</UUID>
-    <Name>Fitness App FRD + Build</Name>
-    <Description>Creation of detailed Feature and Function Specifications.
-      Development, Deployment and Testing of an MVP of the Fitness App.
+    <ID>J001342</ID>
+    <UUID>510cde83-c6e6-4028-8efd-2bf9c4017362</UUID>
+    <Name>HubSpot and Google Calendar Integration</Name>
+    <Description>Assemble will provide Experts to make website modifications as requested by the client, limited to the following:
+      1.) Create 2 Hubspot ""Schedule A Call"" Links and add to email signatures for CPG Farms and Assemble Email.
+      2.) Update ""Schedule a Call"" wording CTA on CPG's website to include the CPG Hubspot Schedule A Call Link created in Task 1.
+      3.) Update ""Let's do this"" button to ""Schedule a Meeting"" CTA with link to CPG Hubspot Schedule A Call Link created in Task 1.
+      4.) Setup CPG powered by Assemble forms and workflows and fully Integrate into Assemble Hubspot similar to Entrepreneur.
 
-      Hours are estimated by Task and totaled for the Project
-      Actual hours will be tracked, and reported on a regular cadence
-      Actual hours will be billed on a regular cadence (typically every 2 weeks)
-      Hours per Task and Project may be adjusted with approval/ notice
-      NOTE: Some work may be completed by talent on set contracts (not hourly)
-      Duration may be extended or shortened and total hours adjusted with approval/notice</Description>
+      Does not include creation of media assets or paid media.
+      Assumes research and needs assessment has been completed. Costs per line item are estimates.
+      If updating a current CRM, assumes the service/ software is NOT out of date.
+      NOTE: Email/ CRM optimization requires at least 3 months to see predictable results.</Description>
     <Client>
-      <UUID>5e8d793f-953c-408d-90fe-e4870153c54b</UUID>
-      <Name>Irish Studio, LLC</Name>
+      <UUID>415f2f19-115a-4cc5-89a5-b81a30a03de3</UUID>
+      <Name>CPG Farms</Name>
     </Client>
-    <ClientOrderNumber>AWR-1569</ClientOrderNumber>
-    <Budget>85730.00</Budget>
-    <State>Working</State>
-    <Type>Complex Projects</Type>
-    <StartDate>2021-01-25T00:00:00</StartDate>
-    <DueDate>2021-08-06T00:00:00</DueDate>
+    <ClientOrderNumber>AWR-1342</ClientOrderNumber>
+    <Budget>1650.00</Budget>
+    <State>On Hold</State>
+    <Type>Custom Projects</Type>
+    <StartDate>2020-12-30T00:00:00</StartDate>
+    <DueDate>2021-06-30T00:00:00</DueDate>
     <Contact>
-      <UUID>148ddb75-fe48-4840-afd3-7f2e4f16df38</UUID>
-      <Name>Liam Lynch</Name>
+      <UUID>33291e3d-4a97-4db0-99f0-0c9cf0e9a6e3</UUID>
+      <Name>Dean Sinclair (CPG)</Name>
     </Contact>
     <Partner>
-      <UUID>1ba7a2db-fcfe-48e3-93dc-6b5abd47383a</UUID>
-      <Name>Chris Koens</Name>
+      <UUID>7067be29-25e8-4561-a7a6-4d8abfe58fcf</UUID>
+      <Name>Blake Lopez</Name>
     </Partner>
-    <Assigned>
-      <Staff>
-        <UUID>ecb0f93c-422f-44d1-8451-f83fa268c729</UUID>
-        <Name>Keith Ward</Name>
-      </Staff>
-      <Staff>
-        <UUID>913df56d-350d-406d-8a19-266fa31bb4f1</UUID>
-        <Name>Sam Adrian</Name>
-      </Staff>
-    </Assigned>
+    <Assigned/>
     <Tasks>
       <Task>
-        <UUID>e528ca9e-1186-42b1-944b-dc9617351e4c</UUID>
-        <Name>20501 Project Management</Name>
-        <TaskUUID>b7cd99c0-7ed3-45af-b791-e7726efd0e6d</TaskUUID>
-        <EstimatedMinutes>3600</EstimatedMinutes>
-        <ActualMinutes>3390</ActualMinutes>
+        <UUID>8cddf188-2d8b-4883-941c-f5d782dd4261</UUID>
+        <Name>30301 Project Management</Name>
+        <TaskUUID>65c56bba-58d2-4d19-9ddd-e5fbdd2d1d5e</TaskUUID>
+        <EstimatedMinutes>210</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
         <Description>Plan, Track Budget, Manage Resources</Description>
         <Completed>false</Completed>
         <Billable>true</Billable>
         <Folder/>
-        <Assigned>
-          <Staff>
-            <UUID>ecb0f93c-422f-44d1-8451-f83fa268c729</UUID>
-            <Name>Keith Ward</Name>
-          </Staff>
-        </Assigned>
       </Task>
       <Task>
-        <UUID>8ade5a35-ef8e-472f-b6c3-c5f9277b675b</UUID>
-        <Name>20501 Concept / Design Creation</Name>
-        <TaskUUID>1e16f849-f401-456a-b183-32d9af9ad826</TaskUUID>
-        <EstimatedMinutes>9300</EstimatedMinutes>
-        <ActualMinutes>10245</ActualMinutes>
-        <Description>Define detailed Feature and Function specifications and requirements</Description>
-        <Completed>false</Completed>
-        <Billable>true</Billable>
-        <Folder/>
-        <Assigned>
-          <Staff>
-            <UUID>913df56d-350d-406d-8a19-266fa31bb4f1</UUID>
-            <Name>Sam Adrian</Name>
-          </Staff>
-        </Assigned>
-      </Task>
-      <Task>
-        <UUID>54231f4b-6b48-4be1-b6a5-eca0a3fd04ca</UUID>
-        <Name>20501 Development + Testing</Name>
-        <TaskUUID>2e9789f3-7d85-4fb7-ae4d-d403c10b83aa</TaskUUID>
-        <EstimatedMinutes>96000</EstimatedMinutes>
-        <ActualMinutes>46605</ActualMinutes>
-        <Description>Build/Code and test an MVP of the Fitness App
-          Utilizing the MVP Product Requirements Document as a guide, the following deliverables will be included in Development and Deployment:
-          1. RTC – Real-time Communication
-          a. Integration with RTC provider to provide
-          connections between multiple parties
-          b. Support for 1 to 1 and 1 to many sessions
-          c. Support for mobile devices
-          i. Student will be able to join a session from
-          their phone or tablet
-          d. Provider: Twilio Video or similar
-          e. Session limitations (duration, qty)
-          2. Music Provider Integration
-          a. Requires additional research for source
-          integration.
-          b. Allow Trainer to toggle music stream
-          3. Web App
-          a. Public Trainer Profiles
-          i.  Unique Marketable URL
-          ii. Sharable Actions
-          iii. Visitor tracking
-          iv. Displays Classes
-          v.  Displays Calendar View
-          vi. User can Select Class to see Class Details
-          b. Trainer Dashboard
-          i.   Ability to create classes
-          ii.  See stats
-          iii.  See upcoming classes
-          iv.  Start a class
-          v.   Ability to integrate limited email
-          marketing/sending (to be defined)
-          vi. Ability to push class details/marketing posts
-          to Social (to be defined)
-          vii. Ability to select a charity partner from an
-          integrated dropdown
-          (based on Pledge.io plugin)
-          c. Booking workflow with Class Type Logic
-          i. Class selection
-          ii. Support for one-time class purchase
-          (single purchase)
-          iii. Support for unlimited classes by trainer
-          (subscription)
-          d. Schedule/Calendar/Availability management
-          i. Ties in with Class creation, ability to see
-          available times, set class times, durations,
-          and calendar
-          ii. Support for cancelation
-          e. Support for rescheduling
-          f. Student Account and dashboard
-          i. Account management
-          • Manage payment information
-          • See order history
-          ii. Upcoming classes
-          iii. Ability to join an upcoming class
-          iv. Subscription management
-          • Ability to cancel/modify their subscriptions
-          g. Admin Dashboard
-          i. Ability to see statistics
-          ii. Ability to see active users
-          iii. Ability to see active classes
-          iv. Ability to join classes in a hidden mode
-          (moderator style)
-          v. Ability to manage teachers
-          • Onboard, cancel, message
-          vi. Ability to manage system email templates
-          4. Payment Integration
-          i. Checkout functionality for a user to purchase
-          5. Notification System
-          i. Email (integration with SendGrid type of tool)
-          ii. SMS (integration with Twilio type of tool)
-          iii. Transactional messaging for all user actions
-          and class status
-          iv. Tokenized emails for joining a scheduled
-          class
-          v. Reminders
-          vi. Ability to manage system settings
-          6. Testing and Deployment
-          a. Internal Testing and QA
-          b. UAT phase, testing with client
-          7. Code &amp; Documentation
-          a. Code Delivery to client’s repo
-          i. If Customer does not have a code repository,
-          Assemble will assist in creating such on the
-          Customer's behalf
-          b. Deliver documentation to Customer upon
-          project completion
-          i. Includes technical spec documentation
-          outlines technical details such as
-          programming language, frameworks,
-          libraries used, etc
-
-          Includes user guide that outlines how the application works. This is structured via screenshots and explanations of the various features and functions</Description>
-        <Completed>false</Completed>
-        <Billable>true</Billable>
-        <Folder/>
-        <Assigned>
-          <Staff>
-            <UUID>913df56d-350d-406d-8a19-266fa31bb4f1</UUID>
-            <Name>Sam Adrian</Name>
-          </Staff>
-        </Assigned>
-      </Task>
-      <Task>
-        <UUID>92136895-5c68-45b7-8402-64d38800f3e8</UUID>
-        <Name>20501 Deployment + Testing</Name>
-        <TaskUUID>ba1c37d6-fb57-40d8-9a93-9d5bc027d9d2</TaskUUID>
-        <EstimatedMinutes>18000</EstimatedMinutes>
+        <UUID>8a60e866-7a79-49b4-8c8b-936a9a5a3e72</UUID>
+        <Name>30301 Adjust/ Optimize</Name>
+        <TaskUUID>f65d1275-629c-49b2-90a1-cd4ad443ecfa</TaskUUID>
+        <EstimatedMinutes>1320</EstimatedMinutes>
         <ActualMinutes>0</ActualMinutes>
-        <Description>Integrate, Migrate, QA Test</Description>
+        <Description>Schedule Call links for Assemble and CPG Farms Hubspot/email accounts
+          Link CPG farms Hubspot link to end of typeform
+          Add schedule call links to respective email accounts (Assemble and CPG Farms)
+          Change CTA button on website from "Let's do this" to "Book a Meeting" Change color if necessary
+          Test link and handoff to client
+          Create 3 forms and integrate into CPG Farms powered by Assemble
+          Create 5  automated emails that trigger when lifecycle is lead to schedule meeting with Dean
+          Setup automation to route CPG Farms Leads/MQLS/SQLs to Dean
+          Route Typeform Assesment entries into contact record inside Assemble Hubspot
+          Update CPG Farms powered by Assemble branding
+          QA Forms, Workflows, etc and handoff to customer	</Description>
         <Completed>false</Completed>
         <Billable>true</Billable>
         <Folder/>
-        <Assigned>
-          <Staff>
-            <UUID>913df56d-350d-406d-8a19-266fa31bb4f1</UUID>
-            <Name>Sam Adrian</Name>
-          </Staff>
-        </Assigned>
+      </Task>
+      <Task>
+        <UUID>e3493e80-d84e-406d-8de4-92b91f71af9e</UUID>
+        <Name>30001 Additional Work</Name>
+        <TaskUUID>8fa72bab-3905-4003-8492-77fc89c60b86</TaskUUID>
+        <EstimatedMinutes>0</EstimatedMinutes>
+        <ActualMinutes>0</ActualMinutes>
+        <Description>Describe the additional work required to complete the Project</Description>
+        <Completed>false</Completed>
+        <Billable>false</Billable>
+        <Folder/>
       </Task>
     </Tasks>
     <Milestones>
       <Milestone>
-        <UUID>0bf82307-32a2-4bbc-a04e-c9e9d9d66590</UUID>
-        <Date>2021-01-19T00:00:00</Date>
-        <Description>Estimate Accepted</Description>
+        <UUID>f1cac1d2-eb34-4795-b477-f9aa2bd2ad33</UUID>
+        <Date>2020-07-21T00:00:00</Date>
+        <Description>Quote Accepted</Description>
         <Completed>true</Completed>
         <Folder/>
       </Milestone>
       <Milestone>
-        <UUID>eef3587c-df23-4a21-9e53-1a9a7f139a49</UUID>
-        <Date>2021-01-21T00:00:00</Date>
-        <Description>Talent Approved</Description>
+        <UUID>9147e4b6-684e-4add-a64c-73200cf84af8</UUID>
+        <Date>2020-07-26T00:00:00</Date>
+        <Description>Security Deposit Paid</Description>
         <Completed>true</Completed>
         <Folder/>
       </Milestone>
       <Milestone>
-        <UUID>172b4d4c-b604-4731-91bf-e254edf07c4b</UUID>
-        <Date>2021-01-29T00:00:00</Date>
+        <UUID>8fd51459-ddaa-413f-8d4d-a74bb21fb6f7</UUID>
+        <Date>2021-01-13T00:00:00</Date>
         <Description>Launch Meeting</Description>
-        <Completed>true</Completed>
-        <Folder/>
-      </Milestone>
-      <Milestone>
-        <UUID>685de6b8-f133-431b-8ba4-fa9953dc5d00</UUID>
-        <Date>2021-03-19T00:00:00</Date>
-        <Description>FRS Document Draft Complete</Description>
-        <Completed>true</Completed>
-        <Folder/>
-      </Milestone>
-      <Milestone>
-        <UUID>b69ce2ea-8c92-4704-83cc-e1c460690fab</UUID>
-        <Date>2021-03-26T00:00:00</Date>
-        <Description>Resource Setup</Description>
-        <Completed>true</Completed>
-        <Folder/>
-      </Milestone>
-      <Milestone>
-        <UUID>8dde7f99-8d4f-4154-bba4-05be610816bb</UUID>
-        <Date>2021-07-30T00:00:00</Date>
-        <Description>Frontend, Backend, Layout </Description>
         <Completed>false</Completed>
         <Folder/>
       </Milestone>
       <Milestone>
-        <UUID>14aea59e-3215-49f3-804c-b777ade43b2f</UUID>
-        <Date>2021-08-06T00:00:00</Date>
-        <Description>Deliver Version 1.0</Description>
+        <UUID>10391a74-3ee2-4454-a774-47fa0f068e5d</UUID>
+        <Date>2021-01-27T00:00:00</Date>
+        <Description>Concept Review</Description>
+        <Completed>false</Completed>
+        <Folder/>
+      </Milestone>
+      <Milestone>
+        <UUID>0a9cdb2e-4c4b-4b03-bf66-e56aea5a46a4</UUID>
+        <Date>2021-02-10T00:00:00</Date>
+        <Description>Progress Review #1</Description>
+        <Completed>false</Completed>
+        <Folder/>
+      </Milestone>
+      <Milestone>
+        <UUID>17cfc111-aa6d-462a-97bc-54131ee2057c</UUID>
+        <Date>2021-02-17T00:00:00</Date>
+        <Description>Final Review</Description>
+        <Completed>false</Completed>
+        <Folder/>
+      </Milestone>
+      <Milestone>
+        <UUID>840ae061-5b87-4237-bf1f-65a35d23ef2f</UUID>
+        <Date>2021-02-24T00:00:00</Date>
+        <Description>Work Completed</Description>
         <Completed>false</Completed>
         <Folder/>
       </Milestone>
     </Milestones>
     <Notes/>
-    <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=50765136</WebUrl>
+    <WebUrl>https://app.my.workflowmax.com/job/jobview.aspx?id=50767454</WebUrl>
   </Job>
 </Response>
