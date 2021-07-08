@@ -35,7 +35,7 @@ module WorkflowMaxRuby
         fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling ClientApi.get_clients"
       end
       # resource path
-      local_var_path = 'list?detailed=true'
+      local_var_path = '/list?detailed=true'
 
       # header parameters
       header_params = opts[:header_params] || {}

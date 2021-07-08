@@ -35,7 +35,7 @@ module WorkflowMaxRuby
         fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling JobApi.get_jobs"
       end
       # resource path
-      local_var_path = 'current'
+      local_var_path = '/current'
 
       # query parameters
       query_params = opts[:query_params] || {}

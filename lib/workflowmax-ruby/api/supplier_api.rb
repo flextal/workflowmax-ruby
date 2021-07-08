@@ -21,7 +21,7 @@ module WorkflowMaxRuby
         fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling SupplierApi.get_suppliers"
       end
       # resource path
-      local_var_path = 'list'
+      local_var_path = '/list'
 
       # header parameters
       header_params = opts[:header_params] || {}

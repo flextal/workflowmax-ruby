@@ -149,19 +149,19 @@ describe WorkflowMaxRuby::ApiClient do
       expect(api_client.config.base_url).to eq('https://api.xero.com')
 
       api_client.client_api
-      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/client.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/client.api')
 
       api_client.invoice_api
-      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/invoice.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/invoice.api')
 
       api_client.job_api
-      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/job.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/job.api')
 
       api_client.task_api
-      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/task.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/task.api')
 
       api_client.quote_api
-      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/quote.api/')
+      expect(api_client.config.base_url).to eq('https://api.xero.com/workflowmax/3.0/quote.api')
     end
 
     it "does not mutate the original opts hash" do
