@@ -37,6 +37,10 @@ module WorkflowMaxRuby
       # resource path
       local_var_path = '/current'
 
+      query_params = opts[:query_params] || {}
+
+      query_params[:'detailed'] = true
+
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
@@ -59,6 +63,7 @@ module WorkflowMaxRuby
 
       new_options = opts.merge(
         :header_params => header_params,
+        :query_params => query_params,
         :form_params => form_params,
         :body => post_body,
         :auth_names => auth_names,
