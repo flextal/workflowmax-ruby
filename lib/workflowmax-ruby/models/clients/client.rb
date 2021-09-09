@@ -349,7 +349,13 @@ module WorkflowMaxRuby::Clients
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
-            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+            attributes[self.class.attribute_map[key]].each do |a|
+              if a[1].is_a?(Array)
+                self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              else
+                self.send("#{key}=", a.map { |v| _deserialize($1, v) })
+              end
+            end
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
@@ -398,7 +404,7 @@ module WorkflowMaxRuby::Clients
           end
         end
       when :Contact
-        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value[1])
+        WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value)
       else # model
         WorkflowMaxRuby::Clients.const_get(type).build_from_hash(value)
       end

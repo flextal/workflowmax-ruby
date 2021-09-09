@@ -227,6 +227,7 @@ describe 'Client' do
       test_obj = @instance.build_from_hash(data[:Client])
 
       expect(test_obj).to_not be_nil
+      expect(test_obj.contacts.count).to equal(3)
     end
   end
 end
