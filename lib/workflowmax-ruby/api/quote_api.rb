@@ -35,11 +35,13 @@ module WorkflowMaxRuby
         fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling QuoteApi.get_quotes"
       end
       # resource path
-      local_var_path = '/current'
+      local_var_path = '/list'
 
       query_params = opts[:query_params] || {}
 
       query_params[:'detailed'] = true
+      query_params[:'from'] = (Date.today() - 365).strftime('%Y%m%d')
+      query_params[:'to'] = Date.today().strftime('%Y%m%d')
 
       # header parameters
       header_params = opts[:header_params] || {}

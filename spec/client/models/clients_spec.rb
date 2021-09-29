@@ -57,7 +57,7 @@ describe 'Clients' do
       data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
 
       test_obj = @instance.build_from_hash(data)
-      expect(test_obj.clients.length).to eq(11)
+      expect(test_obj.clients.length).to eq(277)
     end
   end
 
