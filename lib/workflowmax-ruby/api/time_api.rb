@@ -25,10 +25,10 @@ module WorkflowMaxRuby
     # @option opts [String] :where Filter by an any element
     # @option opts [String] :order Order by an any element
     # @return [Array<(Accounts, Integer, Hash)>] Accounts data, response status code and response headers
-    def get_timesheets_with_http_info(xero_tenant_id, options = {})
+    def get_times_with_http_info(xero_tenant_id, options = {})
       opts = options.dup
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: TimeAPI.get_timesheets ...'
+        @api_client.config.logger.debug 'Calling API: TimeAPI.get_times ...'
       end
       # verify the required parameter 'xero_tenant_id' is set
       if @api_client.config.client_side_validation && xero_tenant_id.nil?
