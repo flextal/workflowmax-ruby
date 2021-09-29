@@ -32,7 +32,7 @@ module WorkflowMaxRuby::Times
     def self.openapi_types
       {
         :'status' => :'String',
-        :'times' => :'Array<WFMTime>'
+        :'times' => :'Array<Timesheet>'
       }
     end
 
@@ -55,8 +55,8 @@ module WorkflowMaxRuby::Times
         self.status = attributes[:'status']
       end
 
-      if attributes.key?(:'times')
-        if (value = attributes[:'times']).is_a?(Array)
+      if attributes.key?(:'timesheets')
+        if (value = attributes[:'timesheets']).is_a?(Array)
           self.times = value
         end
       end
