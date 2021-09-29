@@ -37,6 +37,7 @@ module WorkflowMaxRuby
     attr_accessor :quote_url
     attr_accessor :staff_url
     attr_accessor :supplier_url
+    attr_accessor :time_url
 
     # Defines API keys used with API Key authentications.
     #
@@ -157,6 +158,7 @@ module WorkflowMaxRuby
       @quote_url = 'https://api.xero.com/workflowmax/3.0/quote.api'
       @staff_url = 'https://api.xero.com/workflowmax/3.0/staff.api'
       @supplier_url = 'https://api.xero.com/workflowmax/3.0/supplier.api'
+      @time_url = 'https://api.xero.com/workflowmax/3.0/time.api'
       @access_token = nil
       @id_token = nil
       @api_key = {}

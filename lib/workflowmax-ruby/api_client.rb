@@ -117,6 +117,11 @@ module WorkflowMaxRuby
       WorkflowMaxRuby::SupplierApi.new(self)
     end
 
+    def time_api
+      @config.base_url = @config.time_url
+      WorkflowMaxRuby::TimeApi.new(self)
+    end
+
     # Token Helpers
     def token_set
       @config.token_set
@@ -284,6 +289,8 @@ module WorkflowMaxRuby
         method_base_url = @config.staff_url
       when "SupplierApi"
         method_base_url = @config.supplier_url
+      when "TimeApi"
+        method_base_url = @config.time_url
       else
         method_base_url = @config.accounting_url
       end
@@ -528,6 +535,8 @@ module WorkflowMaxRuby
           WorkflowMaxRuby::Staff.const_get(return_type).build_from_hash(data)
         when 'SupplierApi'
           WorkflowMaxRuby::Suppliers.const_get(return_type).build_from_hash(data)
+        when 'TimeApi'
+          WorkflowMaxRuby::Times.const_get(return_type).build_from_hash(data)
         else
           WorkflowMaxRuby::Accounting.const_get(return_type).build_from_hash(data)
         end

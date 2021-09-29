@@ -219,6 +219,11 @@ require 'workflowmax-ruby/models/staff/staff_list'
 require 'workflowmax-ruby/models/staff/staff'
 require 'workflowmax-ruby/models/suppliers/suppliers'
 require 'workflowmax-ruby/models/suppliers/supplier'
+require 'workflowmax-ruby/models/times/times'
+require 'workflowmax-ruby/models/times/wfm_time'
+require 'workflowmax-ruby/models/times/job'
+require 'workflowmax-ruby/models/times/staff'
+require 'workflowmax-ruby/models/times/task'
 
 # APIs
 require 'workflowmax-ruby/api/files_api'
@@ -232,6 +237,7 @@ require 'workflowmax-ruby/api/quote_api'
 require 'workflowmax-ruby/api/task_api'
 require 'workflowmax-ruby/api/staff_api'
 require 'workflowmax-ruby/api/supplier_api'
+require 'workflowmax-ruby/api/time_api'
 
 module WorkflowMaxRuby
   class << self
