@@ -16,8 +16,6 @@ module WorkflowMaxRuby::Invoices
     attr_accessor :id
     attr_accessor :uuid
     attr_accessor :type
-    # Statuses: Approved, Paid, Draft, Cancelled
-    attr_accessor :status
     attr_accessor :job_text
     attr_accessor :description
     attr_accessor :date
@@ -27,8 +25,10 @@ module WorkflowMaxRuby::Invoices
     attr_accessor :amount_including_tax
     attr_accessor :amount_paid
     attr_accessor :amount_outstanding
+    attr_accessor :status
     attr_accessor :client
     attr_accessor :contact
+    attr_accessor :jobs
 
 
     # Attribute mapping from ruby-style variable name to JSON key.
@@ -37,7 +37,6 @@ module WorkflowMaxRuby::Invoices
         :'id' => :'ID',
         :'uuid' => :'UUID',
         :'type' => :'Type',
-        :'status' => :'Status',
         :'job_text' => :'JobText',
         :'description' => :'Description',
         :'date' => :'Date',
@@ -47,8 +46,10 @@ module WorkflowMaxRuby::Invoices
         :'amount_including_tax' => :'AmountIncludingTax',
         :'amount_paid' => :'AmountPaid',
         :'amount_outstanding' => :'AmountOutstanding',
+        :'status' => :'Status',
         :'client' => :'Client',
-        :'contact' => :'Contact'
+        :'contact' => :'Contact',
+        :'jobs' => :'Jobs'
       }
     end
 
@@ -58,7 +59,6 @@ module WorkflowMaxRuby::Invoices
         :'id' => :'String',
         :'uuid' => :'String',
         :'type' => :'String',
-        :'status' => :'String',
         :'job_text' => :'String',
         :'description' => :'String',
         :'date' => :'DateTime',
@@ -68,8 +68,10 @@ module WorkflowMaxRuby::Invoices
         :'amount_including_tax' => :'Float',
         :'amount_paid' => :'Float',
         :'amount_outstanding' => :'Float',
+        :'status' => :'String',
         :'client' => :'Client',
-        :'contact' => :'Contact'
+        :'contact' => :'Contact',
+        :'jobs' => :'Array<Job>'
       }
     end
 
@@ -89,27 +91,23 @@ module WorkflowMaxRuby::Invoices
       }
 
       if attributes.key?(:'id')
-        self.project_id = attributes[:'id']
+        self.id = attributes[:'id']
       end
 
       if attributes.key?(:'uuid')
-        self.project_id = attributes[:'uuid']
+        self.uuid = attributes[:'uuid']
       end
 
       if attributes.key?(:'type')
-        self.name = attributes[:'type']
-      end
-
-      if attributes.key?(:'status')
-        self.name = attributes[:'status']
+        self.type = attributes[:'type']
       end
 
       if attributes.key?(:'job_text')
-        self.name = attributes[:'job_text']
+        self.job_text = attributes[:'job_text']
       end
 
       if attributes.key?(:'description')
-        self.name = attributes[:'description']
+        self.date = attributes[:'description']
       end
 
       if attributes.key?(:'date')
@@ -117,35 +115,43 @@ module WorkflowMaxRuby::Invoices
       end
 
       if attributes.key?(:'due_date')
-        self.name = attributes[:'due_date']
+        self.due_date = attributes[:'due_date']
       end
 
       if attributes.key?(:'amount')
-        self.name = attributes[:'amount']
+        self.amount = attributes[:'amount']
       end
 
       if attributes.key?(:'amount_tax')
-        self.name = attributes[:'amount_tax']
+        self.amount_tax = attributes[:'amount_tax']
       end
 
       if attributes.key?(:'amount_including_tax')
-        self.name = attributes[:'amount_including_tax']
+        self.amount_including_tax = attributes[:'amount_including_tax']
       end
 
       if attributes.key?(:'amount_paid')
-        self.name = attributes[:'amount_paid']
+        self.amount_paid = attributes[:'amount_paid']
       end
 
       if attributes.key?(:'amount_outstanding')
-        self.name = attributes[:'amount_outstanding']
+        self.amount_outstanding = attributes[:'amount_outstanding']
+      end
+
+      if attributes.key?(:'status')
+        self.status = attributes[:'status']
       end
 
       if attributes.key?(:'client')
-        self.name = attributes[:'client']
+        self.client = attributes[:'client']
       end
 
       if attributes.key?(:'contact')
-        self.name = attributes[:'contact']
+        self.contact = attributes[:'contact']
+      end
+
+      if attributes.key?(:'jobs')
+        self.jobs = attributes[:'jobs']
       end
     end
 
@@ -175,7 +181,6 @@ module WorkflowMaxRuby::Invoices
         id == o.id &&
         uuid == o.uuid &&
         type == o.type &&
-        status == o.status &&
         job_text == o.job_text &&
         description == o.description &&
         date == o.date &&
@@ -185,8 +190,10 @@ module WorkflowMaxRuby::Invoices
         amount_including_tax == o.amount_including_tax &&
         amount_paid == o.amount_paid &&
         amount_outstanding == o.amount_outstanding &&
+        status == o.status &&
         client == o.client &&
-        contact == o.contact
+        contact == o.contact &&
+        jobs == o.jobs
     end
 
     # @see the `==` method
@@ -198,7 +205,7 @@ module WorkflowMaxRuby::Invoices
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [id, uuid, type, status, job_text, description, date, due_date, amount, amount_tax, amount_including_tax, amount_paid, amount_outstanding, client, contact].hash
+      [id, uuid, type, job_text, description, date, due_date, amount, amount_tax, amount_including_tax, amount_paid, amount_outstanding, status, client, contact, jobs].hash
     end
 
     # Builds the object from hash
@@ -220,13 +227,19 @@ module WorkflowMaxRuby::Invoices
           if attributes[self.class.attribute_map[key]].is_a?(Array)
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
-            self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
+            attributes[self.class.attribute_map[key]].each do |a|
+              if a[1].is_a?(Array)
+                self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              else
+                self.send("#{key}=", a.map { |v| _deserialize($1, v) })
+              end
+            end
           end
         elsif !attributes[self.class.attribute_map[key]].nil?
           self.send("#{key}=", _deserialize(type, attributes[self.class.attribute_map[key]]))
         end # or else data not found in attributes(hash), not an issue as the data can be optional
       end
-
+      self.jobs = self.jobs.compact unless self.jobs.nil?
       self
     end
 

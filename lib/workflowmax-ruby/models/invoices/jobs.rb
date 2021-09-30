@@ -15,21 +15,21 @@ require 'date'
 module WorkflowMaxRuby::Invoices
   require 'bigdecimal'
 
-  class Costs
+  class Jobs
 
-    attr_accessor :costs
+    attr_accessor :jobs
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'costs' => :'costs'
+        :'jobs' => :'Jobs'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
-        :'costs' => :'Array<Cost>'
+        :'jobs' => :'Array<Job>'
       }
     end
 
@@ -37,20 +37,20 @@ module WorkflowMaxRuby::Invoices
     # @param [Hash] attributes Model attributes in the form of hash
     def initialize(attributes = {})
       if (!attributes.is_a?(Hash))
-        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Invoices::Costs` initialize method"
+        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Invoices::Jobs` initialize method"
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Invoices::Costs`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Invoices::Jobs`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
 
-      if attributes.key?(:'costs')
-        if (value = attributes[:'costs']).is_a?(Array)
-          self.costs = value
+      if attributes.key?(:'jobs')
+        if (value = attributes[:'jobs']).is_a?(Array)
+          self.jobs = value
         end
       end
     end
@@ -73,7 +73,7 @@ module WorkflowMaxRuby::Invoices
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
-        costs == o.costs
+        jobs == o.jobs
     end
 
     # @see the `==` method
@@ -85,7 +85,7 @@ module WorkflowMaxRuby::Invoices
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [costs].hash
+      [jobs].hash
     end
 
     # Builds the object from hash

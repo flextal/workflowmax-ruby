@@ -21,6 +21,11 @@ describe 'Invoice' do
   before do
     # run before each test
     @instance = WorkflowMaxRuby::Invoices::Invoice.new
+
+    xml_file = File.open(File.dirname(__FILE__ ) + '/../../fixtures/files/specific_invoice.xml')
+    data = JSON.parse(Hash.from_xml(xml_file).to_json, symbolize_names: true)[:Response]
+
+    @test_obj = @instance.build_from_hash(data[:Invoice])
   end
 
   after do
@@ -32,6 +37,13 @@ describe 'Invoice' do
       expect(@instance).to be_instance_of(WorkflowMaxRuby::Invoices::Invoice)
     end
   end
+
+  describe 'test build_from_hash' do
+    it 'should load invoice data and not be empty' do
+      expect(@test_obj).to_not be_nil
+    end
+  end
+
 
   describe 'test attribute "id"' do
     it 'should work' do
@@ -106,14 +118,32 @@ describe 'Invoice' do
   end
 
   describe 'test attribute "client"' do
-    it 'should work' do
-      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    it 'should have client name of Landfall Data' do
+      expect(@test_obj.client.name).to eq('Hero Media Network')
     end
   end
 
   describe 'test attribute "contact"' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    end
+  end
+
+  describe 'test attribute "jobs"' do
+    it 'should have job with ID of J002465' do
+      expect(@test_obj.jobs[0].id).to eq('J002465')
+    end
+  end
+
+  describe 'test attribute "tasks"' do
+    it 'should have task with ID of J002266' do
+      expect(@test_obj.jobs[0].tasks[0].uuid).to eq('0bb46359-79fc-4f9e-bed4-def58bdf3e82')
+    end
+  end
+
+  describe 'test attribute "costs"' do
+    it 'should have cost with ID of J002266' do
+      expect(@test_obj.jobs[0].costs[0].description).to eq('$500 Matching Deposit')
     end
   end
 end

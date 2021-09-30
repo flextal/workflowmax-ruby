@@ -1,0 +1,72 @@
+<Response api-method="Get">
+  <Status>OK</Status>
+  <Invoice>
+    <ID>CN-3360</ID>
+    <UUID>63fc74c2-28ca-465a-8caf-e6e084358477</UUID>
+    <Type>Progress Invoice</Type>
+    <JobText>J002465</JobText>
+    <Description/>
+    <Date>2021-06-22T00:00:00</Date>
+    <DueDate>2021-07-02T00:00:00</DueDate>
+    <Amount>-362.00</Amount>
+    <AmountTax>0.00</AmountTax>
+    <AmountIncludingTax>-362.00</AmountIncludingTax>
+    <AmountPaid>0.00</AmountPaid>
+    <AmountOutstanding>-362.00</AmountOutstanding>
+    <Status>Approved</Status>
+    <Client>
+      <UUID>152fac3c-abc1-4af6-9922-9ac9e538c9e3</UUID>
+      <Name>Hero Media Network</Name>
+    </Client>
+    <Jobs>
+      <Job>
+        <ID>J002465</ID>
+        <Name>Hero Media Network - Digital Growth Manager</Name>
+        <Description>Primarily a strategy/growth and planning role, not execution
+
+          Experience with:
+          CRM
+          Funnels
+          Paid Search &amp; Paid Social
+          Strategy / Planning
+          Analytics / Reporting
+
+
+          Hours: 5 / week
+          Cost:  90/hour</Description>
+        <ClientOrderNumber>J002465</ClientOrderNumber>
+        <Tasks>
+          <Task>
+            <UUID>0bb46359-79fc-4f9e-bed4-def58bdf3e82</UUID>
+            <Name>10601 Sales + Growth</Name>
+            <Description>Job Summary
+              Role:       Digital Growth Manager
+              Rate:       $90.00 /Hour
+              Hours:     5 /Week (est)
+              Quote Based On: The Amount displayed is the estimated total amount for 4 weeks of Talent’s work at the hours defined. Contract is for a minimum of 13 Weeks</Description>
+            <Minutes>90</Minutes>
+            <BillableRate>92.00</BillableRate>
+            <Billable>Yes</Billable>
+            <Amount>138.00</Amount>
+            <AmountTax>0.00</AmountTax>
+            <AmountIncludingTax>138.00</AmountIncludingTax>
+          </Task>
+        </Tasks>
+        <Costs>
+          <Cost>
+            <Description>$500 Matching Deposit</Description>
+            <Note/>
+            <Code>PROGRESS-INVOICE</Code>
+            <Billable>Yes</Billable>
+            <Quantity>-1.00</Quantity>
+            <UnitCost>0.00</UnitCost>
+            <UnitPrice>500.00</UnitPrice>
+            <Amount>-500.00</Amount>
+            <AmountTax>0.00</AmountTax>
+            <AmountIncludingTax>-500.00</AmountIncludingTax>
+          </Cost>
+        </Costs>
+      </Job>
+    </Jobs>
+  </Invoice>
+</Response>

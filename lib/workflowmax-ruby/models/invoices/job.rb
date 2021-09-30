@@ -9,26 +9,38 @@ OpenAPI Generator version: 4.3.1
 
 =end
 
-require 'time'
-require 'date'
-
 module WorkflowMaxRuby::Invoices
   require 'bigdecimal'
 
-  class Costs
-
+  class Job
+    attr_accessor :id
+    attr_accessor :name
+    attr_accessor :description
+    attr_accessor :client_order_number
+    attr_accessor :tasks
     attr_accessor :costs
+
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'costs' => :'costs'
+        :'id' => :'ID',
+        :'name' => :'Name',
+        :'description' => :'Description',
+        :'client_order_number' => :'ClientOrderNumber',
+        :'tasks' => :'Tasks',
+        :'costs' => :'Costs'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
+        :'id' => :'String',
+        :'name' => :'String',
+        :'description' => :'String',
+        :'client_order_number' => :'String',
+        :'tasks' => :'Array<Task>',
         :'costs' => :'Array<Cost>'
       }
     end
@@ -37,21 +49,39 @@ module WorkflowMaxRuby::Invoices
     # @param [Hash] attributes Model attributes in the form of hash
     def initialize(attributes = {})
       if (!attributes.is_a?(Hash))
-        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Invoices::Costs` initialize method"
+        fail ArgumentError, "The input argument (attributes) must be a hash in `WorkflowMaxRuby::Invoices::Job` initialize method"
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Invoices::Costs`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `WorkflowMaxRuby::Invoices::Job`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
 
+      if attributes.key?(:'id')
+        self.id = attributes[:'id']
+      end
+
+      if attributes.key?(:'name')
+        self.name = attributes[:'name']
+      end
+
+      if attributes.key?(:'description')
+        self.description = attributes[:'description']
+      end
+
+      if attributes.key?(:'client_order_number')
+        self.client_order_number = attributes[:'client_order_number']
+      end
+
+      if attributes.key?(:'tasks')
+        self.tasks = attributes[:'tasks']
+      end
+
       if attributes.key?(:'costs')
-        if (value = attributes[:'costs']).is_a?(Array)
-          self.costs = value
-        end
+        self.costs = attributes[:'costs']
       end
     end
 
@@ -59,12 +89,17 @@ module WorkflowMaxRuby::Invoices
     # @return Array for valid properties with the reasons
     def list_invalid_properties
       invalid_properties = Array.new
+      if @name.nil?
+        invalid_properties.push('invalid value for "name", name cannot be nil.')
+      end
+
       invalid_properties
     end
 
     # Check to see if the all the properties in the model are valid
     # @return true if the model is valid
     def valid?
+      return false if @name.nil?
       true
     end
 
@@ -73,6 +108,11 @@ module WorkflowMaxRuby::Invoices
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
+        id == o.id &&
+        name == o.name &&
+        description == o.description &&
+        client_order_number == o.client_order_number &&
+        tasks == o.tasks &&
         costs == o.costs
     end
 
@@ -85,7 +125,7 @@ module WorkflowMaxRuby::Invoices
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [costs].hash
+      [id, name, description, client_order_number, tasks, costs].hash
     end
 
     # Builds the object from hash
@@ -108,8 +148,10 @@ module WorkflowMaxRuby::Invoices
             self.send("#{key}=", attributes[self.class.attribute_map[key]].map { |v| _deserialize($1, v) })
           elsif attributes[self.class.attribute_map[key]].is_a?(Hash)
             attributes[self.class.attribute_map[key]].each do |a|
-              if a.is_a?(Array)
+              if a[1].is_a?(Array)
                 self.send("#{key}=", a[1].map { |v| _deserialize($1, v) })
+              else
+                self.send("#{key}=", a.map { |v| _deserialize($1, v) })
               end
             end
           end
@@ -118,6 +160,8 @@ module WorkflowMaxRuby::Invoices
         end # or else data not found in attributes(hash), not an issue as the data can be optional
       end
 
+      self.tasks = self.tasks.compact unless self.tasks.nil?
+      self.costs = self.costs.compact unless self.costs.nil?
       self
     end
 
@@ -127,10 +171,6 @@ module WorkflowMaxRuby::Invoices
     # @return [Object] Deserialized data
     def _deserialize(type, value)
       case type.to_sym
-      when :DateTime
-        DateTime.parse(parse_date(value))
-      when :Date
-        Date.parse(parse_date(value))
       when :String
         value.to_s
       when :Integer
@@ -211,17 +251,6 @@ module WorkflowMaxRuby::Invoices
         value.to_hash(downcase: downcase)
       else
         value
-      end
-    end
-
-    def parse_date(datestring)
-      if datestring.include?('Date')
-        date_pattern = /\/Date\((-?\d+)(\+\d+)?\)\//
-        original, date, timezone = *date_pattern.match(datestring)
-        date = (date.to_i / 1000)
-        Time.at(date).utc.strftime('%Y-%m-%dT%H:%M:%S%z').to_s
-      else # handle date 'types' for small subset of payroll API's
-        Time.parse(datestring).strftime('%Y-%m-%dT%H:%M:%S').to_s
       end
     end
   end
