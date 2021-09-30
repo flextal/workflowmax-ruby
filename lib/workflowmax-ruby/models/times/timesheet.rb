@@ -21,6 +21,7 @@ module WorkflowMaxRuby::Times
     attr_accessor :minutes
     attr_accessor :note
     attr_accessor :billable
+    attr_accessor :invoice_task_uuid
 
 
     # Attribute mapping from ruby-style variable name to JSON key.
@@ -33,7 +34,8 @@ module WorkflowMaxRuby::Times
         :'date' => :'Date',
         :'minutes' => :'Minutes',
         :'note' => :'Note',
-        :'billable' => :'Billable'
+        :'billable' => :'Billable',
+        :'invoice_task_uuid' => :'InvoiceTaskUUID'
       }
     end
 
@@ -47,7 +49,8 @@ module WorkflowMaxRuby::Times
         :'date' => :'DateTime',
         :'minutes' => :'Integer',
         :'note' => :'String',
-        :'billable' => :'Boolean'
+        :'billable' => :'Boolean',
+        :'invoice_task_uuid' => :'String'
       }
     end
 
@@ -97,6 +100,10 @@ module WorkflowMaxRuby::Times
       if attributes.key?(:'billable')
         self.billable = attributes[:'billable']
       end
+
+      if attributes.key?(:'invoice_task_uuid')
+        self.invoice_task_uuid = attributes[:'invoice_task_uuid']
+      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -129,7 +136,8 @@ module WorkflowMaxRuby::Times
         date == o.date &&
         minutes == o.minutes &&
         note == o.note &&
-        billable == o.billable
+        billable == o.billable &&
+        invoice_task_uuid == o.invoice_task_uuid
     end
 
     # @see the `==` method
@@ -141,7 +149,7 @@ module WorkflowMaxRuby::Times
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [uuid, job, task, staff, date, minutes, note, billable].hash
+      [uuid, job, task, staff, date, minutes, note, billable, invoice_task_uuid].hash
     end
 
     # Builds the object from hash
